@@ -4680,7 +4680,8 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
 }
 @media (max-width: 991px) {
   header {
-    background: #ffffff;
+    /* background: #ffffff; */
+    background: #000;
   }
   header .navbar-toggler:focus {
     border: 0;
@@ -4705,7 +4706,8 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
     padding-bottom: 1rem;
   }
   header .navbar-collapse .navbar-nav .nav-item .nav-link {
-    color: #0b2238 !important;
+    /* color: #0b2238 !important; */
+    color: #fff !important;
   }
   header .navbar-collapse .navbar-nav .nav-item .nav-link.active {
     color: #165df5 !important;
@@ -4773,7 +4775,8 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
 -----------------------------*/
 @media (max-width: 991px) {
   .fixed-header header {
-    background: #ffffff !important;
+    /* background: #ffffff !important; */
+    background: #000 !important;
   }
 }
 .fixed-header header.nav-product .navbar-brand {
@@ -19432,7 +19435,8 @@ html:not(.no-js) [data-aos="fade-up"] {
   height: 48px;
   top: -6px;
   left: -14px;
-  stroke: #0b2238;
+  /* stroke: #0b2238; */
+  stroke: #fff;
   stroke-width: 0.2rem;
   stroke-linecap: round;
   stroke-linejoin: round;
@@ -19664,7 +19668,7 @@ html:not(.no-js) [data-aos="fade-up"] {
 .prgoress_indicator::after {
   position: absolute;
   font-family: "The-Icon-of";
-  content: "\e9a2";
+  /* content: "\e9a2"; */
   text-align: center;
   line-height: 46px;
   font-size: 18px;

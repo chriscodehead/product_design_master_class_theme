@@ -1,11 +1,10 @@
 <footer class="default_footer chiy_footer foot_demo2 padding-py-12 margin-t-12">
  <div class="container">
-  <!-- Start footer -->
   <div class="defalut-footer">
    <div class="row">
     <div class="col-md-6 col-lg-4 mb-4 mb-sm-0">
      <div class="item_about">
-      <a class="logo" href="hosting.html">
+      <a class="logo" href="./">
        <img src="https://orinostudio.com/rakon-theme/assets/img/logo.svg" alt="" />
       </a>
       <p>
@@ -84,15 +83,16 @@
  <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
   <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
  </svg>
+ <i style="top: 10px;" class=""></i>
 </div>
 
 <!-- Purchase item -->
-<a href="https://themeforest.net/item/rakon-html-landing-page-templates/27849521" target="_blank" class="rakon_purchase">
+<a href="https://api.whatsapp.com/send?phone=2348098862800&text=Hello, I want to enquire about Creative Hub" target="_blank" class="rakon_purchase">
  <button type="button" class="btn btn_purch">
   <div class="icon">
-   <img src="https://orinostudio.com/rakon-theme/assets/img/rakon/envato.svg" />
+   <img src="img/WhatsApp_icon.png" />
   </div>
-  <span class="txt">Purchase</span>
+  <span class="txt">Support</span>
  </button>
 </a>
 <!-- End. -->
@@ -102,7 +102,7 @@
  <div class="toast toast_demo" id="myTost" role="alert" aria-live="assertive" aria-atomic="true" data-animation="true" data-autohide="false">
   <div class="toast-body">
    <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
-    <i class="tio clear"></i>
+    <i class="fa fa-close"></i>
    </button>
    <h5>Hi there 👋</h5>
    <p>We are glad you joined us <a href="#">Join us</a></p>
@@ -114,7 +114,7 @@
 <!-- Start Section Loader -->
 <section class="loading_overlay">
  <div class="loader_logo">
-  <img class="logo" src="https://orinostudio.com/rakon-theme/assets/img/logo.svg" />
+  <img class="" width="200" src="img/logo.png" />
  </div>
 </section>
 <!-- End. Loader -->

@@ -1,4 +1,9 @@
-<?php require_once('head.php'); ?>
+<?php
+require_once('include.php');
+$title = 'Product Design | UI/UX Master Class - Creative Hub By Centadesk';
+$description = '';
+$keyword = '';
+require_once('head.php'); ?>
 
 <body>
   <div id="wrapper">
@@ -15,26 +20,25 @@
               <div class="col-lg-5 mb-5">
                 <div class="banner_title">
                   <div class="offer">
-                    <span class="c-white">90% Off </span>
-                    <span class="c-aquamarine"> Web Hosting</span>
+                    <span class="c-white">80% Off </span>
+                    <span class="c-aquamarine"> Product Design Master Class</span>
                   </div>
                   <h1 class="c-white">
-                    Own the internet. Start with fast web hosting.
+                    Master Digital Product Design: UX Research & UI Design
                   </h1>
                   <p class="c-light">
-                    Up to 90% OFF Web Hosting Plans + Free SSL. The deal ends
-                    in:
+                    A complete design education for product designers: Research the user experience, then design a great user interface
                   </p>
                   <div class="prices">
                     <span>Starting at only</span>
-                    <p>$2.75/mo*</p>
+                    <p>₦20,000/* <strike>₦150,000</strike> </p>
                   </div>
                 </div>
-                <a href="#" class="btn btn_md_primary bg-red effect-letter rounded-8 c-white mb-3 mb-sm-0 mr-2">
+                <a href="#register" class="btn btn_md_primary bg-red effect-letter rounded-8 c-white mb-3 mb-sm-0 mr-2">
                   Get Started</a>
                 <button type="button" class="btn btn_watch btn_md_primary btn_video" data-toggle="modal" data-src="https://www.youtube.com/embed/VvHoHw5AWTk" data-target="#mdllVideo">
-                  <i class="tio play_circle"></i>
-                  Discover this video
+                  <i class="fa fa-trophy"></i>
+                  Certified Course | Watch Video
                 </button>
               </div>
             </div>
@@ -50,12 +54,12 @@
               <div class="col-md-10">
                 <div class="wrapper_logos">
                   <div class="items bxslider">
-                    <a class="item-client" href="#" target="_blank">
-                      <img src="assets/img/logos/slack.png" alt="" />
+                    <a class="item-client" href="https://techocraft.com" target="_blank">
+                      <img src="img/techo-craft-logo.png" alt="" />
                       <span>Visit site</span>
                     </a>
-                    <a class="item-client" href="#" target="_blank">
-                      <img src="assets/img/logos/netflix.png" alt="" />
+                    <a class="item-client" href="https://centadesk.com" target="_blank">
+                      <img src="img/centadesk-logo.png" alt="" />
                       <span>Visit site</span>
                     </a>
                     <a class="item-client" href="#" target="_blank">
@@ -92,10 +96,9 @@
                   <div class="img_title">
                     <img src="https://orinostudio.com/rakon-theme/assets/img/hosting/54.svg" />
                   </div>
-                  <h2>Orinohost Helps You Succeed</h2>
+                  <h2>Unlock Your Creative Potential and Ignite Your Design Career</h2>
                   <p>
-                    Grow your website faster by using DreamHost as your
-                    foundation.
+                    At <?php print $siteName; ?>, our team of mentors will guide you through every phase with great tasks, real-world projects, and thorough project/task evaluations.
                   </p>
                 </div>
               </div>
@@ -104,13 +107,12 @@
                   <div class="col-md-6 item">
                     <div class="items_serv sevice_block" data-aos="fade-up" data-aos-delay="0">
                       <div class="icon--top">
-                        <img src="https://orinostudio.com/rakon-theme/assets/img/icons/Settings.svg" alt="" />
+                        <i class="fa fa-address-card"></i>
                       </div>
                       <div class="txt">
-                        <h3>Super Easy to Use</h3>
+                        <h3>Learn from Renowned Industry Experts:</h3>
                         <p>
-                          Our custom control panel is simple to use and
-                          removes the headache of managing your web hosting.
+                          Our master class is led by a team of seasoned product design veterans who have successfully brought countless innovative products to life. Gain invaluable insights, tips, and tricks directly from the industry's finest minds.
                         </p>
                       </div>
                     </div>
@@ -118,13 +120,12 @@
                   <div class="col-md-6 item">
                     <div class="items_serv sevice_block" data-aos="fade-up" data-aos-delay="100">
                       <div class="icon--top">
-                        <img src="https://orinostudio.com/rakon-theme/assets/img/icons/Layers.svg" alt="" />
+                        <i class="fa fa-code"></i>
                       </div>
                       <div class="txt">
-                        <h3>Full Featured</h3>
+                        <h3>Hands-on, Practical Approach:</h3>
                         <p>
-                          We do more than web hosting. Our tool suite includes
-                          everything you need to be successful.
+                          Theory is essential, but practical experience is paramount. Through a series of engaging exercises, live demonstrations, and real-world case studies, you'll develop the skills necessary to tackle any design challenge with confidence.
                         </p>
                       </div>
                     </div>
@@ -132,13 +133,12 @@
                   <div class="col-md-6 item">
                     <div class="items_serv sevice_block" data-aos="fade-up" data-aos-delay="200">
                       <div class="icon--top">
-                        <img src="https://orinostudio.com/rakon-theme/assets/img/icons/Thunder-move.svg" alt="" />
+                        <i class="fa fa-wrench"></i>
                       </div>
                       <div class="txt">
-                        <h3>Fast & Reliable</h3>
+                        <h3>Cutting-Edge Techniques and Tools:</h3>
                         <p>
-                          If your website is slow or down, then you are losing
-                          customers, conversion and search engine rankings.
+                          Stay ahead of the curve with the latest design methodologies and tools used by top professionals. Discover how to leverage technology to streamline your workflow and create exceptional designs that leave a lasting impact.
                         </p>
                       </div>
                     </div>
@@ -146,13 +146,12 @@
                   <div class="col-md-6 item">
                     <div class="items_serv sevice_block" data-aos="fade-up" data-aos-delay="300">
                       <div class="icon--top">
-                        <img src="https://orinostudio.com/rakon-theme/assets/img/icons/Headphones.svg" alt="" />
+                        <i class="fa fa-comments-o"></i>
                       </div>
                       <div class="txt">
-                        <h3>24/7 Expert Support</h3>
+                        <h3>Interactive Live Sessions:</h3>
                         <p>
-                          Our award-winning US-based experts are available to
-                          help when you get stuck — anytime, day or night.
+                          Interact directly with our expert instructors in live sessions conducted via Zoom or Google Meet. Ask questions, seek personalized feedback, and collaborate with fellow participants from around the world, fostering a vibrant and supportive community.
                         </p>
                       </div>
                     </div>
@@ -1069,199 +1068,4 @@
       <!-- end main -->
     </div>
     <!-- [id] content -->
-    <footer class="default_footer chiy_footer foot_demo2 padding-py-12 margin-t-12">
-      <div class="container">
-        <!-- Start footer -->
-        <div class="defalut-footer">
-          <div class="row">
-            <div class="col-md-6 col-lg-4 mb-4 mb-sm-0">
-              <div class="item_about">
-                <a class="logo" href="hosting.html">
-                  <img src="https://orinostudio.com/rakon-theme/assets/img/logo.svg" alt="" />
-                </a>
-                <p>
-                  Rakon is a simple, elegant, and secure way to build your
-                  bitcoin and crypto portfolio.
-                </p>
-                <div class="address">
-                  <span>1989 Don Jackson Lane</span>
-                  <span>Call us:
-                    <a class="c-red" href="tel:8089569599">808-956-9599</a></span>
-                </div>
-              </div>
-            </div>
-            <div class="col-6 col-md-2">
-              <div class="item_links">
-                <h4>Social</h4>
-                <a class="nav-link" href="#">Blog</a>
-                <a class="nav-link" href="#">Facebook</a>
-                <a class="nav-link" href="#">Twitter</a>
-                <a class="nav-link" href="#">Instagram</a>
-              </div>
-            </div>
-            <div class="col-6 col-md-2">
-              <div class="item_links">
-                <h4>Company</h4>
-                <a class="nav-link" href="#">About</a>
-                <a class="nav-link" href="#">Affiliates</a>
-                <a class="nav-link" href="#">Careers</a>
-                <a class="nav-link" href="#">Legal & Privacy</a>
-              </div>
-            </div>
-            <div class="col-md-4 mt-4 mt-sm-0">
-              <div class="item_subscribe">
-                <h4>Subscribe</h4>
-                <p>
-                  Subscribe to get the latest<br />
-                  news form us
-                </p>
-                <form class="form-row">
-                  <div class="col-md-11 form-group subscribebtn">
-                    <div class="item_input">
-                      <input type="email" class="form-control rounded-pill" id="exampleInputEmail1" placeholder="Enter email address" aria-describedby="emailHelp" />
-                      <button type="button" class="btn ripple_circle scale rounded-circle btn_subscribe">
-                        <i class="tio send"></i>
-                      </button>
-                    </div>
-                  </div>
-                </form>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-6 margin-t-1">
-              <select data-menu>
-                <option>French</option>
-                <option selected>English</option>
-                <option>Arabic</option>
-                <option>Russian</option>
-              </select>
-            </div>
-          </div>
-          <div class="col-12 text-center padding-t-6">
-            <div class="copyright">
-              <span>© 2020
-                <a href="https://themeforest.net/user/orinostu" target="_blank">OrinoStu.</a>
-                All Right Reseved</span>
-            </div>
-          </div>
-        </div>
-        <!-- End Footer -->
-      </div>
-    </footer>
-
-    <!-- Back to top with progress indicator-->
-    <div class="prgoress_indicator">
-      <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
-      </svg>
-    </div>
-
-    <!-- Purchase item -->
-    <a href="https://themeforest.net/item/rakon-html-landing-page-templates/27849521" target="_blank" class="rakon_purchase">
-      <button type="button" class="btn btn_purch">
-        <div class="icon">
-          <img src="https://orinostudio.com/rakon-theme/assets/img/rakon/envato.svg" />
-        </div>
-        <span class="txt">Purchase</span>
-      </button>
-    </a>
-    <!-- End. -->
-
-    <!-- Tosts -->
-    <div aria-live="polite" aria-atomic="true" class="d-flex justify-content-center align-items-center">
-      <div class="toast toast_demo" id="myTost" role="alert" aria-live="assertive" aria-atomic="true" data-animation="true" data-autohide="false">
-        <div class="toast-body">
-          <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
-            <i class="tio clear"></i>
-          </button>
-          <h5>Hi there 👋</h5>
-          <p>We are glad you joined us <a href="#">Join us</a></p>
-        </div>
-      </div>
-    </div>
-    <!-- End. Toasts -->
-
-    <!-- Start Section Loader -->
-    <section class="loading_overlay">
-      <div class="loader_logo">
-        <img class="logo" src="https://orinostudio.com/rakon-theme/assets/img/logo.svg" />
-      </div>
-    </section>
-    <!-- End. Loader -->
-
-    <!-- Video Modal -->
-    <div class="modal mdll_video fade" id="mdllVideo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <!-- Close -->
-      <button type="button" class="close bbt_close ripple_circle" data-dismiss="modal" aria-label="Close">
-        <i class="tio clear"></i>
-      </button>
-      <div class="modal-dialog modal-dialog-centered modal-lg">
-        <div class="modal-content">
-          <div class="modal-body">
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe class="embed-responsive-item" src="#" id="video" allowscriptaccess="always" allow="autoplay"></iframe>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- End. wrapper -->
-
-  <!-- jquery -->
-  <script src="assets/js/jquery-3.5.0.js" type="text/javascript"></script>
-  <!-- jquery-migrate -->
-  <script src="assets/js/jquery-migrate.min.js" type="text/javascript"></script>
-  <!-- popper -->
-  <script src="assets/js/popper.min.js" type="text/javascript"></script>
-  <!-- bootstrap -->
-  <script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
-  <!--
-  ============
-  vendor file
-  ============
-   -->
-  <!-- particles -->
-  <script src="assets/js/vendor/particles.min.js" type="text/javascript"></script>
-  <!-- TweenMax -->
-  <script src="assets/js/vendor/TweenMax.min.js" type="text/javascript"></script>
-  <!-- ScrollMagic -->
-  <script src="assets/js/vendor/ScrollMagic.js" type="text/javascript"></script>
-  <!-- animation.gsap -->
-  <script src="assets/js/vendor/animation.gsap.js" type="text/javascript"></script>
-  <!-- addIndicators -->
-  <script src="assets/js/vendor/debug.addIndicators.min.js" type="text/javascript"></script>
-  <!-- Swiper js -->
-  <script src="assets/js/vendor/swiper.min.js" type="text/javascript"></script>
-  <!-- countdown -->
-  <script src="assets/js/vendor/countdown.js" type="text/javascript"></script>
-  <!-- simpleParallax -->
-  <script src="assets/js/vendor/simpleParallax.min.js" type="text/javascript"></script>
-  <!-- waypoints -->
-  <script src="assets/js/vendor/waypoints.min.js" type="text/javascript"></script>
-  <!-- counterup -->
-  <script src="assets/js/vendor/jquery.counterup.min.js" type="text/javascript"></script>
-  <!-- charming -->
-  <script src="assets/js/vendor/charming.min.js" type="text/javascript"></script>
-  <!-- imagesloaded -->
-  <script src="assets/js/vendor/imagesloaded.pkgd.min.js" type="text/javascript"></script>
-  <!-- BX-Slider -->
-  <script src="assets/js/vendor/jquery.bxslider.min.js" type="text/javascript"></script>
-  <!-- Sharer -->
-  <script src="assets/js/vendor/sharer.js" type="text/javascript"></script>
-  <!-- sticky -->
-  <script src="assets/js/vendor/sticky.min.js" type="text/javascript"></script>
-  <!-- Aos -->
-  <script src="assets/js/vendor/aos.js" type="text/javascript"></script>
-  <!-- main file -->
-  <script src="assets/js/main.js" type="text/javascript"></script>
-  <!-- hosting -->
-  <script src="assets/js/pages/hosting.js" type="text/javascript"></script>
-
-</body>
-
-
-<!-- Mirrored from orinostudio.com/rakon-theme/html/home/hosting.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 30 May 2023 15:22:00 GMT -->
-
-</html>
+    <?php require_once('footer.php'); ?>

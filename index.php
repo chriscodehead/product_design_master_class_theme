@@ -21,10 +21,10 @@ require_once('head.php'); ?>
                 <div class="banner_title">
                   <div class="offer">
                     <span class="c-white">80% Off </span>
-                    <span class="c-aquamarine"> Product Design Master Class</span>
+                    <span class="c-aquamarine"> Product Design Master Class </span>
                   </div>
                   <h1 class="c-white">
-                    Master Digital Product Design: UX Research & UI Design
+                    Master Digital Product Design: UX Research & UI Design <span class="text-success">Cohort 2.0</span>
                   </h1>
                   <p class="c-light">
                     A complete design education for product designers: Research the user experience, then design a great user interface
@@ -47,7 +47,7 @@ require_once('head.php'); ?>
         <!-- End Banner -->
 
         <!-- Start logos -->
-        <section class="logos_section padding-t-5 text-center">
+        <section style="display: none;" class="logos_section padding-t-5 text-center">
           <div class="container">
             <h3>Trusted by content creators across the world</h3>
             <div class="row justify-content-md-center">
@@ -87,209 +87,46 @@ require_once('head.php'); ?>
         </section>
         <!-- End logos -->
 
-        <!-- Start Services -->
-        <section class="services_section hosting_service padding-t-12" id="Services">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-8 col-lg-4">
-                <div class="title_sections mb-0">
-                  <div class="img_title">
-                    <img src="https://orinostudio.com/rakon-theme/assets/img/hosting/54.svg" />
-                  </div>
-                  <h2>Unlock Your Creative Potential and Ignite Your Design Career</h2>
-                  <p>
-                    At <?php print $siteName; ?>, our team of mentors will guide you through every phase with great tasks, real-world projects, and thorough project/task evaluations.
-                  </p>
-                </div>
-              </div>
-              <div class="col-lg-6 ml-auto">
-                <div class="row">
-                  <div class="col-md-6 item">
-                    <div class="items_serv sevice_block" data-aos="fade-up" data-aos-delay="0">
-                      <div class="icon--top">
-                        <i class="fa fa-address-card"></i>
-                      </div>
-                      <div class="txt">
-                        <h3>Learn from Renowned Industry Experts:</h3>
-                        <p>
-                          Our master class is led by a team of seasoned product design veterans who have successfully brought countless innovative products to life. Gain invaluable insights, tips, and tricks directly from the industry's finest minds.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-6 item">
-                    <div class="items_serv sevice_block" data-aos="fade-up" data-aos-delay="100">
-                      <div class="icon--top">
-                        <i class="fa fa-code"></i>
-                      </div>
-                      <div class="txt">
-                        <h3>Hands-on, Practical Approach:</h3>
-                        <p>
-                          Theory is essential, but practical experience is paramount. Through a series of engaging exercises, live demonstrations, and real-world case studies, you'll develop the skills necessary to tackle any design challenge with confidence.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-6 item">
-                    <div class="items_serv sevice_block" data-aos="fade-up" data-aos-delay="200">
-                      <div class="icon--top">
-                        <i class="fa fa-wrench"></i>
-                      </div>
-                      <div class="txt">
-                        <h3>Cutting-Edge Techniques and Tools:</h3>
-                        <p>
-                          Stay ahead of the curve with the latest design methodologies and tools used by top professionals. Discover how to leverage technology to streamline your workflow and create exceptional designs that leave a lasting impact.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-6 item">
-                    <div class="items_serv sevice_block" data-aos="fade-up" data-aos-delay="300">
-                      <div class="icon--top">
-                        <i class="fa fa-comments-o"></i>
-                      </div>
-                      <div class="txt">
-                        <h3>Interactive Live Sessions:</h3>
-                        <p>
-                          Interact directly with our expert instructors in live sessions conducted via Zoom or Google Meet. Ask questions, seek personalized feedback, and collaborate with fellow participants from around the world, fostering a vibrant and supportive community.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <!-- End Services -->
-
-        <!-- Start Features -->
-        <section class="search_section margin-t-12 padding-py-7">
-          <div class="container">
-            <div class="row justify-content-center text-center">
-              <div class="col-md-8 col-lg-6">
-                <div class="title_sections margin-b-6">
-                  <h2>Get Your Ideal Domain Name</h2>
-                  <p>
-                    Find a domain, create your own website and use custom
-                    email
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="row justify-content-center">
-              <div class="col-md-8">
-                <div class="form-group domain_search">
-                  <div class="input-group">
-                    <input type="search" class="form-control" placeholder="Find your perfect domain name" />
-                    <div class="input-group-append">
-                      <select class="form-control custom-select select_item" id="exampleFormControlSelect1">
-                        <option>.com</option>
-                        <option>.net</option>
-                        <option>.me</option>
-                        <option>.info</option>
-                        <option>.io</option>
-                      </select>
-                      <div class="bg_button">
-                        <button type="button" class="btn btn_search">
-                          Search
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="name_domain text-center">
-                  <div class="do_main">.com <span>8.98$</span></div>
-                  <div class="do_main">.net <span>6.98$</span></div>
-                  <div class="do_main">.me <span>5.98$</span></div>
-                  <div class="do_main">.info <span>4.98$</span></div>
-                  <div class="do_main">.io <span>8.59$</span></div>
-                  <div class="do_main">
-                    <a href="#" class="btn p-0 c-blue">Other Domain</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <!-- End Features -->
 
         <!-- Start Pricing -->
-        <section class="pricing_section pricing_demo2 pricing_demo3 padding-t-12" id="Pricing">
+        <section style="background-color: #c873730f; padding-bottom: 50px;" class="pricing_section pricing_demo2 pricing_demo3 padding-t-3" id="Pricing">
           <div class="container">
             <div class="row justify-content-md-center">
               <div class="col-md-8 col-lg-6 text-center">
-                <div class="title_sections">
-                  <div class="before_title">
+                <div class=""><!-- title_sections -->
+                  <div style="display: none;" class="before_title">
                     <span>Pricing</span>
                     <span class="c-red">Plan</span>
                   </div>
-                  <h2>What’s our monthly pricing subscription</h2>
+                  <h2 class="text-dark">Subscribe to <?php print $siteName; ?>’s top courses</h2>
+                  <p>Are you ready to take your product design skills to the next level? Join our exclusive live session master class and embark on an incredible journey that will transform the way you approach design. Whether you're a budding designer seeking to enhance your skills or an experienced professional looking to refine your expertise, this master class is tailor-made for you.</p>
                   <!-- Start nav -->
                   <ul class="nav nav-pills" id="pills-tab" role="tablist">
-                    <li class="nav-item" role="presentation">
-                      <a class="nav-link" id="pills-annual-tab" data-toggle="pill" href="#pills-annual" role="tab" aria-controls="pills-annual" aria-selected="false">Annual Plans</a>
+
+                    <li style="display: none;" class="nav-item" role="presentation">
+                      <a class="nav-link" id="pills-annual-tab" data-toggle="pill" href="#pills-annual" role="tab" aria-controls="pills-annual" aria-selected="false">WEB DEVELOPMENT </a>
                     </li>
-                    <li class="nav-item" role="presentation">
-                      <a class="nav-link active" id="pills-month-tab" data-toggle="pill" href="#pills-month" role="tab" aria-controls="pills-month" aria-selected="true">Monthly Plans</a>
+
+                    <li style="display: none;" class="nav-item" role="presentation">
+                      <a class="nav-link active" id="pills-month-tab" data-toggle="pill" href="#pills-month" role="tab" aria-controls="pills-month" aria-selected="true"> PRODUCT DESIGN (UI/UX)</a>
                     </li>
+
                   </ul>
                   <!-- End. nav -->
                 </div>
               </div>
             </div>
 
-            <div class="tab-content" id="pills-tabContent">
-              <div class="tab-pane fade" id="pills-annual" role="tabpanel" aria-labelledby="pills-annual-tab">
+            <div style="background-color: white;" class="tab-content" id="pills-tabContent">
+
+              <div style="display: none;" class="tab-pane fade" id="pills-annual" role="tabpanel" aria-labelledby="pills-annual-tab">
+
                 <div class="blocks_pricing">
                   <div class="row">
-                    <div class="col-md-6 col-lg-4">
-                      <div class="item__price border-0">
-                        <div class="logo_price">
-                          <div class="icon_gif">
-                            <img class="gif" src="assets/img/gif/upside_down_face.gif" />
-                          </div>
-                        </div>
-                        <h4 class="name_p">Basic</h4>
-                        <p class="info_price">
-                          For individuals looking for a simple CRM solution
-                        </p>
-                        <div class="number">
-                          <span class="n_price">$45</span>
-                          <span class="duration">/ ann.</span>
-                        </div>
-                        <!-- icon Semicircle -->
-                        <svg width="22" height="19" viewBox="0 0 22 19">
-                          <g id="icon_semicircle" transform="translate(-325.349 -2843.002)">
-                            <path class="item_fill" id="Subtraction_6" data-name="Subtraction 6" d="M7.485,7A7.477,7.477,0,0,1,2.349,4.966,7.472,7.472,0,0,1,0,0H14.967A7.514,7.514,0,0,1,7.485,7Z" transform="matrix(0.966, 0.259, -0.259, 0.966, 327.161, 2851.367)" fill="#165df5" />
-                            <path class="item_opacity" id="Subtraction_7" data-name="Subtraction 7" d="M7.485,0A7.5,7.5,0,0,0,0,7H14.967A7.514,7.514,0,0,0,7.485,0Z" transform="translate(332.383 2843.002)" fill="#165df5" opacity="0.1" />
-                          </g>
-                        </svg>
-                        <div class="feature_price">
-                          <ul class="list-group">
-                            <li class="list-group-item">
-                              Easy to use Control Panel
-                            </li>
-                            <li class="list-group-item">
-                              Speed Optimization
-                            </li>
-                            <li class="list-group-item">
-                              Unlimited Storage Space
-                            </li>
-                            <li class="list-group-item">
-                              Free Website Migration
-                            </li>
-                            <li class="list-group-item">
-                              Unlimited Support
-                            </li>
-                          </ul>
-                          <button type="button" class="btn effect-letter btn_md_primary rounded-8 c-white bg-blue">
-                            Select Plan
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
+
+
+
+                    <div class="col-md-6 col-lg-12">
                       <div class="item__price popular">
                         <img class="icon_popular" src="https://orinostudio.com/rakon-theme/assets/img/stars.svg" />
                         <div class="logo_price">
@@ -336,105 +173,19 @@ require_once('head.php'); ?>
                         </div>
                       </div>
                     </div>
-                    <div class="col-md-6 col-lg-4">
-                      <div class="item__price border-0">
-                        <div class="logo_price">
-                          <div class="icon_gif">
-                            <img class="gif" src="assets/img/gif/hushed_face.gif" />
-                          </div>
-                        </div>
-                        <h4 class="name_p">Ultra</h4>
-                        <p class="info_price">
-                          For individuals looking for a simple CRM solution
-                        </p>
-                        <div class="number">
-                          <span class="n_price">$84</span>
-                          <span class="duration">/ ann.</span>
-                        </div>
-                        <!-- icon Semicircle -->
-                        <svg width="22" height="19" viewBox="0 0 22 19">
-                          <g id="icon_semicircle" transform="translate(-325.349 -2843.002)">
-                            <path class="item_fill" id="Subtraction_6" data-name="Subtraction 6" d="M7.485,7A7.477,7.477,0,0,1,2.349,4.966,7.472,7.472,0,0,1,0,0H14.967A7.514,7.514,0,0,1,7.485,7Z" transform="matrix(0.966, 0.259, -0.259, 0.966, 327.161, 2851.367)" fill="#F93542" />
-                            <path class="item_opacity" id="Subtraction_7" data-name="Subtraction 7" d="M7.485,0A7.5,7.5,0,0,0,0,7H14.967A7.514,7.514,0,0,0,7.485,0Z" transform="translate(332.383 2843.002)" fill="#F93542" opacity="0.1" />
-                          </g>
-                        </svg>
-                        <div class="feature_price">
-                          <ul class="list-group">
-                            <li class="list-group-item">
-                              Xeon E3-1230v2
-                            </li>
-                            <li class="list-group-item">
-                              Memory - 8 GB
-                            </li>
-                            <li class="list-group-item">
-                              Hard Drive - 2000 GB
-                            </li>
-                            <li class="list-group-item">
-                              Instant Activation
-                            </li>
-                            <li class="list-group-item">
-                              Unlimited Support
-                            </li>
-                          </ul>
-                          <button type="button" class="btn effect-letter btn_md_primary rounded-8 c-white bg-red">
-                            Select Plan
-                          </button>
-                        </div>
-                      </div>
-                    </div>
+
+
+
                   </div>
                 </div>
               </div>
+
               <div class="tab-pane fade show active" id="pills-month" role="tabpanel" aria-labelledby="pills-month-tab">
                 <div class="blocks_pricing">
                   <div class="row">
-                    <div class="col-md-6 col-lg-4">
-                      <div class="item__price border-0">
-                        <div class="logo_price">
-                          <div class="icon_gif">
-                            <img class="gif" src="assets/img/gif/upside_down_face.gif" />
-                          </div>
-                        </div>
-                        <h4 class="name_p">Basic</h4>
-                        <p class="info_price">
-                          For individuals looking for a simple CRM solution
-                        </p>
-                        <div class="number">
-                          <span class="n_price">$3.75</span>
-                          <span class="duration">/ mo</span>
-                        </div>
-                        <!-- icon Semicircle -->
-                        <svg width="22" height="19" viewBox="0 0 22 19">
-                          <g id="icon_semicircle" transform="translate(-325.349 -2843.002)">
-                            <path class="item_fill" id="Subtraction_6" data-name="Subtraction 6" d="M7.485,7A7.477,7.477,0,0,1,2.349,4.966,7.472,7.472,0,0,1,0,0H14.967A7.514,7.514,0,0,1,7.485,7Z" transform="matrix(0.966, 0.259, -0.259, 0.966, 327.161, 2851.367)" fill="#165df5" />
-                            <path class="item_opacity" id="Subtraction_7" data-name="Subtraction 7" d="M7.485,0A7.5,7.5,0,0,0,0,7H14.967A7.514,7.514,0,0,0,7.485,0Z" transform="translate(332.383 2843.002)" fill="#165df5" opacity="0.1" />
-                          </g>
-                        </svg>
-                        <div class="feature_price">
-                          <ul class="list-group">
-                            <li class="list-group-item">
-                              Easy to use Control Panel
-                            </li>
-                            <li class="list-group-item">
-                              Speed Optimization
-                            </li>
-                            <li class="list-group-item">
-                              Unlimited Storage Space
-                            </li>
-                            <li class="list-group-item">
-                              Free Website Migration
-                            </li>
-                            <li class="list-group-item">
-                              Unlimited Support
-                            </li>
-                          </ul>
-                          <button type="button" class="btn effect-letter btn_md_primary rounded-8 c-white bg-blue">
-                            Select Plan
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
+
+
+                    <div class="col-md-6 col-lg-12">
                       <div class="item__price popular">
                         <img class="icon_popular" src="https://orinostudio.com/rakon-theme/assets/img/stars.svg" />
                         <div class="logo_price">
@@ -442,13 +193,13 @@ require_once('head.php'); ?>
                             <img class="gif" src="assets/img/gif/winking_face.gif" />
                           </div>
                         </div>
-                        <h4 class="name_p">Deluxe</h4>
+                        <h4 class="name_p">Product Design (UI/UX)</h4>
                         <p class="info_price">
-                          For individuals looking for a simple CRM solution
+                          Master Digital Product Design: UX Research & UI Design
                         </p>
                         <div class="number">
-                          <span class="n_price">$4.75</span>
-                          <span class="duration">/ mo</span>
+                          <span class="n_price">₦20,000</span>
+                          <span class="duration">/* <strike>₦150,000</strike> </span>
                         </div>
                         <!-- icon Semicircle -->
                         <svg width="22" height="19" viewBox="0 0 22 19">
@@ -460,246 +211,805 @@ require_once('head.php'); ?>
                         <div class="feature_price">
                           <ul class="list-group">
                             <li class="list-group-item">
-                              2GB RAM + 30GB SSD Storage
+                              <i class="fa fa-check text-primary"></i>
+                              Phases: Beginner | Intermediate | Advanced
                             </li>
                             <li class="list-group-item">
-                              Multiple Operating Systems
+                              <i class="fa fa-check text-primary"></i>
+                              Beginner friendly
                             </li>
                             <li class="list-group-item">
-                              Instant Activation
+                              <i class="fa fa-check text-primary"></i>
+                              2-month course period
                             </li>
                             <li class="list-group-item">
-                              cPanel or Direct Admin
+                              <i class="fa fa-check text-primary"></i>
+                              Complete online learning experience
                             </li>
                             <li class="list-group-item">
-                              Unlimited Support
+                              <i class="fa fa-check text-primary"></i>
+                              Flexible self-paced experience
+                            </li>
+                            <li class="list-group-item">
+                              <i class="fa fa-check text-primary"></i>
+                              Detailed evaluation of every task by course mentors
+                            </li>
+                            <li class="list-group-item">
+                              <i class="fa fa-check text-primary"></i>
+                              40+ hours of on-demand videos
+                            </li>
+                            <li class="list-group-item">
+                              <i class="fa fa-check text-primary"></i>
+                              Continuous evaluation instead of examinations
+                            </li>
+                            <li class="list-group-item">
+                              <i class="fa fa-check text-primary"></i>
+                              UI/UX Design certificate
+                            </li>
+                            <li class="list-group-item">
+                              <i class="fa fa-check text-primary"></i>
+                              9 UI/UX Design portfolio projects
+                            </li>
+                            <li class="list-group-item">
+                              <i class="fa fa-check text-primary"></i>
+                              Your best works will be added to our students works of fame
+                            </li>
+                            <li class="list-group-item">
+                              <i class="fa fa-check text-primary"></i>
+                              Lifetime access to course materials
+                            </li>
+                            <li class="list-group-item">
+                              <i class="fa fa-check text-primary"></i>
+                              Opportunity to participate in sponsored academy competitions
+                            </li>
+                            <li class="list-group-item">
+                              <i class="fa fa-check text-primary"></i> Opportunity to network with top product desigers
                             </li>
                           </ul>
                           <button type="button" class="btn effect-letter btn_md_primary rounded-8 c-white bg-yollow">
-                            Select Plan
+                            Enrol Now!!!
                           </button>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                      <div class="item__price border-0">
-                        <div class="logo_price">
-                          <div class="icon_gif">
-                            <img class="gif" src="assets/img/gif/hushed_face.gif" />
+
+                          <div style="display: none;" class="col-lg-12">
+                            <h2 class="text-dark pt-5">What you'll learn</h2>
+                            <ul class="list-group">
+                              <li class="list-group-item">
+                                <i class="fa fa-check text-primary"></i>
+                                User Research
+                              </li>
+                              <li class="list-group-item">
+                                <i class="fa fa-check text-primary"></i>
+                                Low Fidelity Prototyping
+                              </li>
+                              <li class="list-group-item">
+                                <i class="fa fa-check text-primary"></i>
+                                High Fidelity Prototyping
+                              </li>
+                              <li class="list-group-item">
+                                <i class="fa fa-check text-primary"></i>
+                                User Journey Mapping
+                              </li>
+                              <li class="list-group-item">
+                                <i class="fa fa-check text-primary"></i>
+                                Information Architecture
+                              </li>
+                              <li class="list-group-item">
+                                <i class="fa fa-check text-primary"></i>
+                                Affinity Mapping
+                              </li>
+                              <li class="list-group-item">
+                                <i class="fa fa-check text-primary"></i>
+                                User Testing & Design Validation
+                              </li>
+                              <li class="list-group-item">
+                                <i class="fa fa-check text-primary"></i>
+                                UX Audit
+                              </li>
+                              <li class="list-group-item">
+                                <i class="fa fa-check text-primary"></i>
+                                Principles of Visual Design
+                              </li>
+                              <li class="list-group-item">
+                                <i class="fa fa-check text-primary"></i>
+                                Principles of User Experience(UX) Design and User Interface(UI) design and Customer Experience (CX) Design
+                              </li>
+                              <li class="list-group-item">
+                                <i class="fa fa-check text-primary"></i>
+                                Tools & Techniques for Low Fidelity & High Fidelity Prototyping
+                              </li>
+                              <li class="list-group-item">
+                                <i class="fa fa-check text-primary"></i>
+                                User Research for creating compelling products and services
+                              </li>
+                              <li class="list-group-item">
+                                <i class="fa fa-check text-primary"></i>
+                                Principles & Frameworks for Design Thinking and Information Architecture
+                              </li>
+                            </ul>
+
                           </div>
-                        </div>
-                        <h4 class="name_p">Ultra</h4>
-                        <p class="info_price">
-                          For individuals looking for a simple CRM solution
-                        </p>
-                        <div class="number">
-                          <span class="n_price">$6.98</span>
-                          <span class="duration">/ mo</span>
-                        </div>
-                        <!-- icon Semicircle -->
-                        <svg width="22" height="19" viewBox="0 0 22 19">
-                          <g id="icon_semicircle" transform="translate(-325.349 -2843.002)">
-                            <path class="item_fill" id="Subtraction_6" data-name="Subtraction 6" d="M7.485,7A7.477,7.477,0,0,1,2.349,4.966,7.472,7.472,0,0,1,0,0H14.967A7.514,7.514,0,0,1,7.485,7Z" transform="matrix(0.966, 0.259, -0.259, 0.966, 327.161, 2851.367)" fill="#F93542" />
-                            <path class="item_opacity" id="Subtraction_7" data-name="Subtraction 7" d="M7.485,0A7.5,7.5,0,0,0,0,7H14.967A7.514,7.514,0,0,0,7.485,0Z" transform="translate(332.383 2843.002)" fill="#F93542" opacity="0.1" />
-                          </g>
-                        </svg>
-                        <div class="feature_price">
-                          <ul class="list-group">
-                            <li class="list-group-item">
-                              Xeon E3-1230v2
-                            </li>
-                            <li class="list-group-item">
-                              Memory - 8 GB
-                            </li>
-                            <li class="list-group-item">
-                              Hard Drive - 2000 GB
-                            </li>
-                            <li class="list-group-item">
-                              Instant Activation
-                            </li>
-                            <li class="list-group-item">
-                              Unlimited Support
-                            </li>
-                          </ul>
-                          <button type="button" class="btn effect-letter btn_md_primary rounded-8 c-white bg-red">
-                            Select Plan
-                          </button>
+
                         </div>
                       </div>
+
                     </div>
+
                   </div>
                 </div>
               </div>
+
             </div>
+
           </div>
         </section>
         <!-- End Start Pricing -->
 
-        <!-- Start Section Products -->
-        <section class="products_section product_demo2 features_hosting margin-t-12 padding-py-12" id="Features">
+
+        <!-- Start Pricing -->
+        <section class="pricing_section margin-b-5">
+          <div class="container">
+            <div class="row justify-content-md-center">
+              <div class="col-md-8 col-lg-6 text-center">
+                <div class="title_sections_inner margin-b-5">
+                  <h2 class="padding-t-5">UI/UX Design Curriculum</h2>
+                  <!-- toggle switch -->
+                  <div class="toggle_switch margin-t-4">
+
+                    <div style="display: none;" class="toggle">
+                      <input type="checkbox" id="switcher" class="check" />
+                      <b class="b switch"></b>
+                    </div>
+
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="blocks_pricing" id="monthly">
+              <div class="row justify-content-center">
+
+                <div class="col-md-6 col-lg-4">
+                  <div class="item__price">
+                    <div class="logo_price">
+                      <div class="icon_gif">
+                        <img class="gif" src="assets/img/partying_face.gif" />
+                      </div>
+                    </div>
+                    <h4 class="name_p">Beginner Session</h4>
+                    <div style="display: none;" class="number">
+                      <span class="n_price">0</span>
+                      <span class="coins">$</span>
+                      <span class="d-block per">Free</span>
+                    </div>
+                    <p style="display: none;" class="info_price">
+                      For individuals looking for a simple CRM solution
+                    </p>
+                    <div class="feature_price">
+                      <ul class="list-group">
+                        <li class="list-group-item">
+                          <i class="fa fa-check-circle text-success"></i>
+                          A brief look into the definition and relevance of UI and UX design.
+                        </li>
+                        <li class="list-group-item">
+                          <i class="fa fa-check-circle text-success"></i>
+                          UI design tools.
+                        </li>
+                        <li class="list-group-item">
+                          <i class="fa fa-check-circle text-success"></i>
+                          Figma's interface and prototyping fundamentals using Figma.
+                        </li>
+                        <li class="list-group-item">
+                          <i class="fa fa-check-circle text-success"></i>
+                          Introduction to Design patterns.
+                        </li>
+                        <li class="list-group-item">
+                          <i class="fa fa-check-circle text-success"></i>
+                          Learn all about the fundamentals of building professional logos.
+                        </li>
+                        <li class="list-group-item">
+                          <i class="fa fa-check-circle text-success"></i>
+                          User Research and its methods.
+                        </li>
+                        <li class="list-group-item">
+                          <i class="fa fa-check-circle text-success"></i>
+                          Design briefs, mood boards, and grid systems.
+                        </li>
+                        <li class="list-group-item">
+                          <i class="fa fa-check-circle text-success"></i>
+                          Typography.
+                        </li>
+                        <li class="list-group-item">
+                          <i class="fa fa-check-circle text-success"></i>
+                          Wireframes
+                        </li>
+                        <li class="list-group-item">
+                          <i class="fa fa-check-circle text-success"></i>
+                          Iconography.
+                        </li>
+                        <li class="list-group-item">
+                          <i class="fa fa-check-circle text-success"></i>
+                          Designing forms and tables.
+                        </li>
+                        <li class="list-group-item">
+                          <i class="fa fa-check-circle text-success"></i>
+                          Working with components in Figma.
+                        </li>
+                        <li class="list-group-item">
+                          <i class="fa fa-check-circle text-success"></i>
+                          Introduction to Responsive design.
+                        </li>
+                        <li class="list-group-item">
+                          <i class="fa fa-check-circle text-success"></i>
+                          Introduction to prototyping.
+                        </li>
+                      </ul>
+                      <button type="button" class="btn effect-letter scale rounded-pill btn_md_primary c-white bg-blue">
+                        Get Started
+                      </button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                  <div class="item__price popular">
+                    <img style="display: none;" class="icon_popular" src="assets/img/popular.svg" />
+
+                    <div class="logo_price">
+                      <div class="icon_gif">
+                        <img class="gif" src="assets/img/nerd_face.gif" />
+                      </div>
+                    </div>
+                    <h4 class="name_p">Intermediate Session</h4>
+                    <div style="display: none;" class="number">
+                      <span class="n_price">49</span>
+                      <span class="coins">$</span>
+                      <span class="d-block per">Per User/Month Billed Annually</span>
+                    </div>
+                    <p style="display: none;" class="info_price">
+                      For individuals looking for a simple CRM solution
+                    </p>
+                    <div class="feature_price">
+                      <ul class="list-group">
+                        <li class="list-group-item">
+                          <i class="fa fa-check-circle text-success"></i>
+                          Carrying out our user survey.
+                        </li>
+                        <li class="list-group-item">
+                          <i class="fa fa-check-circle text-success"></i>
+                          Competitor's analysis.
+                        </li>
+                        <li class="list-group-item">
+                          <i class="fa fa-check-circle text-success"></i>
+                          Conducting interviews.
+                        </li>
+                        <li class="list-group-item">
+                          <i class="fa fa-check-circle text-success"></i>
+                          Creating the design brief.
+                        </li>
+                        <li class="list-group-item">
+                          <i class="fa fa-check-circle text-success"></i>
+                          Creating the user flow.
+                        </li>
+                        <li class="list-group-item">
+                          <i class="fa fa-check-circle text-success"></i>
+                          Creating the mood boards.
+                        </li>
+                        <li class="list-group-item">
+                          <i class="fa fa-check-circle text-success"></i>
+                          Building out our colour system.
+                        </li>
+                        <li class="list-group-item">
+                          <i class="fa fa-check-circle text-success"></i>
+                          Creating UI components.
+                        </li>
+                        <li class="list-group-item">
+                          <i class="fa fa-check-circle text-success"></i>
+                          Creating the high fidelity mockups for our desktop UI.
+                        </li>
+                        <li class="list-group-item">
+                          <i class="fa fa-check-circle text-success"></i>
+                          Prototyping our desktop UI mockups.
+                        </li>
+                        <li class="list-group-item">
+                          <i class="fa fa-check-circle text-success"></i>
+                          Creating the high fidelity mockups for our mobile UI.
+                        </li>
+                        <li class="list-group-item">
+                          <i class="fa fa-check-circle text-success"></i>
+                          Prototyping the mobile UI mockups.
+                        </li>
+                      </ul>
+                      <button type="button" class="btn effect-letter scale rounded-pill btn_md_primary c-white bg-yollow">
+                        Get Started
+                      </button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                  <div class="item__price">
+                    <div class="logo_price">
+                      <div class="icon_gif">
+                        <img class="gif" src="assets/img/smiling_face_with_sunglasses.gif" />
+                      </div>
+                    </div>
+                    <h4 class="name_p">Advanced Session</h4>
+                    <div style="display: none;" class="number">
+                      <span class="n_price">129</span>
+                      <span class="coins">$</span>
+                      <span class="d-block per">Per User/Month Billed Annually</span>
+                    </div>
+                    <p style="display: none;" class="info_price">
+                      For businesses looking for deep customization and
+                      advanced reports
+                    </p>
+                    <div class="feature_price">
+                      <ul class="list-group">
+                        <li class="list-group-item">
+                          <i class="fa fa-check-circle text-success"></i>
+                          This is a flexible but in-depth session where each student will be creating a set of 6 UI samples throughout the session. This is meant to help each student become truly employable as a result of their ability to apply their skill to any industry. There are 2 bonus chapters which are not required for graduation/certification.
+                        </li>
+                        <!-- <li class="list-group-item">
+                          <i class="fa fa-check-circle text-success"></i>
+                          Required Fields
+                        </li> -->
+
+                      </ul>
+                      <button type="button" class="btn scale effect-letter rounded-pill btn_md_primary c-white bg-orange-red">
+                        Get Started
+                      </button>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+
+
+          </div>
+        </section>
+        <!-- End Start Pricing -->
+
+
+        <!-- Start Banner Section -->
+        <section class="demo_1 banner_section banner_demo7">
           <div class="container">
             <div class="row">
-              <div class="col-md-10 col-lg-4 margin-b-3">
-                <div id="target1"></div>
-                <div class="title_sections" id="pin1">
-                  <h2>What Makes OrinoHost So Different?</h2>
+              <div class="col-md-5 my-auto">
+                <div class="banner_title">
+                  <h1 style="font-size: 40px;">Get ready to revolutionize the world of product design.</h1>
                   <p>
-                    With nearly 20 years of hosting experience, we focus on
-                    successful sites for web designers, developers, bloggers
-                    and online businesses.
+                    Enroll in our Product Design Master Class today and gain access to a transformative learning experience. Earn a certificate, immerse yourself in practical training, and receive invaluable mentorship—empowering you to become a confident, skilled, and sought-after product designer. Don't miss this opportunity to shape your future in the dynamic world of design!
                   </p>
+                  <a style="display: none;" href="#" class="btn btn_md_primary effect-letter rounded-8 bg-blue c-white">Discover</a>
+                  <div style="display: none;" class="margin-t-8">
+                    <button type="button" class="btn btn_video" data-toggle="modal" data-src="https://www.youtube.com/embed/VvHoHw5AWTk" data-target="#mdllVideo">
+                      <div class="scale rounded-circle play_video">
+                        <i class="tio play_outlined"></i>
+                      </div>
+                      <span class="ml-3 font-s-16 c-dark">Show video</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-7">
+                <img class="ill_05" src="assets/img/girl.svg" />
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- End Banner -->
+
+        <!-- Start About -->
+        <section class="abo_company">
+          <div class="container">
+            <div class="row">
+
+              <div class="col-lg-4 emo">
+                <div class="gq_item ill_item" style="background-color: #e9f0ff;">
+                  <!-- <span class="d-block c-dark font-s-16">🏆 Certificate: Recognize Your Achievement</span> -->
+                  <img class="img-fluid ill_sec" src="assets/img/receiving-graduation-certificate-8451931-6720452.png" />
+                  <div class="title_sections">
+                    <h2 class="c-dark">🏆 Certificate: Recognize Your Achievement</h2>
+                    <p class="c-gray">
+                      Upon completing our Product Design Master Class, you'll be awarded a prestigious certificate that validates your newfound expertise. This certificate serves as a tangible testament to your commitment and dedication to mastering the art of product design. Display it proudly to showcase your skills to potential employers, clients, or collaborators, opening doors to exciting career opportunities.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 emo mb-4 mb-lg-0">
+                <div class="gq_item ill_item">
+                  <!-- <span class="d-block c-dark font-s-16">🚀 Practical Training: Hands-On Experience</span> -->
+                  <img class="img-fluid ill_sec" src="assets/img/Security.png" />
+                  <div class="title_sections">
+                    <h2 class="c-dark">🚀 Practical Training: Hands-On Experience</h2>
+                    <p class="c-gray">
+                      We believe in learning by doing, which is why our master class emphasizes practical training. Through engaging exercises, live demonstrations, and real-world case studies, you'll gain invaluable hands-on experience. Dive into the design process, experiment with different techniques, and refine your skills. Our expert instructors will guide you every step of the way, ensuring you develop the practical expertise needed to tackle any design challenge confidently.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 emo">
+                <div class="gq_item ill_item">
+                  <!-- <span class="d-block c-dark font-s-16">🤝 Mentorship: Guidance from Industry Experts</span> -->
+                  <img class="img-fluid ill_sec" src="assets/img/Update.png" />
+                  <div class="title_sections">
+                    <h2 class="c-dark">🤝 Mentorship: Guidance from Industry Experts</h2>
+                    <p class="c-gray">
+                      In addition to the comprehensive curriculum, our master class offers mentorship from seasoned industry professionals. Benefit from their vast experience, industry insights, and personalized guidance. Whether you're seeking career advice, feedback on your portfolio, or guidance on specific design projects, our mentors are here to support you. Forge valuable connections, tap into their expertise, and receive valuable mentorship that can propel your design career to new heights.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </section>
+        <!-- End. About -->
+
+
+        <!-- Start Services -->
+        <section class="products_section product_demo2 features_hosting service_demo3 margin-t-8" id="Services">
+          <div class="container">
+            <div class="row">
+
+            </div>
+          </div>
+          <!-- .container -->
+        </section>
+        <!-- End. Services -->
+
+        <!-- Start Works -->
+        <section class="works_demo2 gng_serv_about padding-t-5" id="Works">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="title_sections">
+                  <div class="before_title">
+                    <!-- <span>Clients We</span>
+                    <span class="c-blue">Work For</span> -->
+                  </div>
+                  <h2>Our Recent Projects.</h2>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-8">
+                <a href="#" class="item_ig item_mywork">
+                  <div class="mg_img">
+                    <img class="item_pic" src="assets/img/0321.png" />
+                  </div>
+                  <div class="info_work">
+                    <h4>
+                      Spring Labs — Disrupting How Financial Info Is Shared.
+                    </h4>
+                    <p>
+                      Websites & Digital Platforms
+                    </p>
+                    <div class="link_view">Show Project</div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-lg-4">
+                <div class="item_ig item_mywork">
+                  <div class="icon_played">
+
+                  </div>
+                  <a href="#" class="d-block">
+                    <div class="mg_img">
+                      <img class="item_pic" src="assets/img/097.png" />
+                    </div>
+                    <div class="info_work">
+                      <h4>Healto — Evolving Healthcare Systems.</h4>
+                      <p>
+                        Websites & Digital Platforms
+                      </p>
+                      <div class="link_view">Show Project</div>
+                    </div>
+                  </a>
+
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <a href="#" class="item_ig item_mywork">
+                  <div class="mg_img">
+                    <video class="item_pic" playsinline muted autoplay loop src="assets/img/rezz-jamming_2.mp4"></video>
+                  </div>
+                  <div class="info_work">
+                    <h4>Healto — Evolving Healthcare Systems.</h4>
+                    <p>
+                      Websites & Digital Platforms
+                    </p>
+                    <div class="link_view">Show Project</div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-lg-8">
+                <a href="#" class="item_ig item_mywork">
+                  <div class="mg_img">
+                    <img class="item_pic" src="assets/img/78970654.png" />
+                  </div>
+                  <div class="info_work">
+                    <h4>
+                      Spring Labs — Disrupting How Financial Info Is Shared.
+                    </h4>
+                    <p>
+                      Websites & Digital Platforms
+                    </p>
+                    <div class="link_view">Show Project</div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- End. works -->
+
+
+        <!-- Start Testimonial -->
+        <section class="testimonial_demo2 padding-t-12">
+          <div class="container">
+            <div class="row justify-content-between">
+              <div class="col-lg-5 mb-4 mb-lg-0">
+                <div class="item_mmon">
+                  <div class="profile_user">
+                    <img src="img/christian-chika.png" />
+                    <div class="categ">
+                      <span>Project Manager</span>
+                    </div>
+                  </div>
+                  <div class="info_persons">
+                    <p>
+                      "Mobiteam created our full Visual Brand Identity and our
+                      online store. We worked together on this project for 4
+                      months and I have exclusively positive feedback. We were
+                      far from IT and development."
+                    </p>
+                    <h5>Tommy Reaves</h5>
+                    <span>Rexona</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-5">
+                <div class="item_mmon">
+                  <div class="profile_user">
+                    <img src="assets/img/13.png" />
+                    <div class="categ">
+                      <span>CEO Founder</span>
+                    </div>
+                  </div>
+                  <div class="info_persons">
+                    <p>
+                      "We looked for an ambitious team to join us for this
+                      realization journey. Right from the beginning, we were
+                      impressed how Marcel and his team carefully and
+                      proactively read and commented on our proposal."
+                    </p>
+                    <h5>Lydia James</h5>
+                    <span>orino Stu.</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- End. Testimonial -->
+
+
+        <!-- strat Blog -->
+        <section class="blog_agency margin-t-5 padding-t-12" id="Blog">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6 col-lg-3">
+                <div class="title_sections">
+                  <h2>We Write Insightful Stuff</h2>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-4 mb-3 mb-lg-0 items">
+                <a href="#" class="item_art">
+                  <div class="item_top">
+                    <div class="date_mo">
+                      <h5>31</h5>
+                      <span>Mar</span>
+                    </div>
+                    <div class="item_cai">
+                      <span class="c-red">Popular Posts</span>
+                      <div class="name_pub">By John Smith</div>
+                    </div>
+                  </div>
+                  <img src="assets/img/097422.png" />
+                  <div class="ga_info">
+                    <h4>
+                      Should Your Brand ride the Coronavirus Wave to drive
+                      gains?
+                    </h4>
+                    <div class="tags__bottom">
+                      <span>#Google </span>
+                      <span>#Amazon</span>
+                      <span>#Design</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-lg-4 mb-3 mb-lg-0 items">
+                <a href="#" class="item_art">
+                  <div class="item_top">
+                    <div class="date_mo">
+                      <h5>4</h5>
+                      <span>Jun</span>
+                    </div>
+                    <div class="item_cai">
+                      <span>Design</span>
+                      <div class="name_pub">By John Smith</div>
+                    </div>
+                  </div>
+                  <img src="assets/img/654.png" />
+                  <div class="ga_info">
+                    <h4>
+                      Should Your Brand ride the Coronavirus Wave to drive
+                      gains?
+                    </h4>
+                    <div class="tags__bottom">
+                      <span>#Google </span>
+                      <span>#Amazon</span>
+                      <span>#Design</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-lg-4 mb-3 mb-lg-0 items">
+                <a href="#" class="item_art is_image">
+                  <img src="assets/img/09874.png" />
+                </a>
+              </div>
+              <div class="col-lg-4 mb-3 mb-lg-0 items">
+                <a href="#" class="item_art is_image">
+                  <img src="assets/img/06541.png" />
+                </a>
+              </div>
+              <div class="col-lg-4 mb-3 mb-lg-0 items">
+                <a href="#" class="item_art">
+                  <div class="item_top">
+                    <div class="date_mo">
+                      <h5>9</h5>
+                      <span>Jun</span>
+                    </div>
+                    <div class="item_cai">
+                      <span>Developer</span>
+                      <div class="name_pub">By John Smith</div>
+                    </div>
+                  </div>
+                  <img src="assets/img/0654.png" />
+                  <div class="ga_info">
+                    <h4>
+                      Should Your Brand ride the Coronavirus Wave to drive
+                      gains?
+                    </h4>
+                    <div class="tags__bottom">
+                      <span>#Google </span>
+                      <span>#Amazon</span>
+                      <span>#Design</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-lg-4 mb-3 mb-lg-0 items">
+                <a href="#" class="item_art">
+                  <div class="item_top">
+                    <div class="date_mo">
+                      <h5>13</h5>
+                      <span>Jun</span>
+                    </div>
+                    <div class="item_cai">
+                      <span>Illustration</span>
+                      <div class="name_pub">By John Smith</div>
+                    </div>
+                  </div>
+                  <img src="assets/img/11654.png" />
+                  <div class="ga_info">
+                    <h4>
+                      Should Your Brand ride the Coronavirus Wave to drive
+                      gains?
+                    </h4>
+                    <div class="tags__bottom">
+                      <span>#Google </span>
+                      <span>#Amazon</span>
+                      <span>#Design</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- End. Blog -->
+
+
+        <!-- Start Services -->
+        <section style="background-color: #c873730f;" class="services_section hosting_service padding-t-12" id="Services">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8 col-lg-4">
+                <div class="title_sections mb-0">
+                  <div class="img_title">
+                    <img src="https://orinostudio.com/rakon-theme/assets/img/hosting/54.svg" />
+                  </div>
+                  <h2>Unlock Your Creative Potential and Ignite Your Design Career</h2>
                   <p>
-                    Our community and support helps you create a website fast
-                    and easy!
+                    At <?php print $siteName; ?>, our team of mentors will guide you through every phase with great tasks, real-world projects, and thorough project/task evaluations.
                   </p>
                 </div>
               </div>
-              <div class="col-md-12 col-lg-7 ml-sm-auto">
+              <div class="col-lg-6 ml-auto">
                 <div class="row">
-                  <div class="col-md-6 item pr-sm-5 margin-b-5">
-                    <div class="item_pro" data-aos="fade-up" data-aos-delay="0">
-                      <div class="icon_t">
-                        <img src="https://orinostudio.com/rakon-theme/assets/img/icons/Employee.svg" />
+                  <div class="col-md-6 item">
+                    <div class="items_serv sevice_block" data-aos="fade-up" data-aos-delay="0">
+                      <div class="icon--top">
+                        <i class="fa fa-address-card"></i>
                       </div>
-                      <h3>Employee Owned</h3>
-                      <p>
-                        Being employee-owned keeps us focused on the unique
-                        needs of our users, and we wouldn't have it any other
-                        way.
-                      </p>
+                      <div class="txt">
+                        <h3>Learn from Renowned Industry Experts:</h3>
+                        <p>
+                          Our master class is led by a team of seasoned product design veterans who have successfully brought countless innovative products to life. Gain invaluable insights, tips, and tricks directly from the industry's finest minds.
+                        </p>
+                      </div>
                     </div>
                   </div>
-                  <div class="col-md-6 item pr-sm-5 margin-b-5">
-                    <div class="item_pro" data-aos="fade-up" data-aos-delay="100">
-                      <div class="icon_t">
-                        <img src="https://orinostudio.com/rakon-theme/assets/img/icons/Binocular.svg" />
+
+                  <div class="col-md-6 item">
+                    <div class="items_serv sevice_block" data-aos="fade-up" data-aos-delay="100">
+                      <div class="icon--top">
+                        <i class="fa fa-code"></i>
                       </div>
-                      <h3>Passion for Privacy</h3>
-                      <p>
-                        We believe in everyone's right to privacy, and we back
-                        that with a strong anti-spam policy and free WHOIS
-                        privacy.
-                      </p>
+                      <div class="txt">
+                        <h3>Hands-on, Practical Approach:</h3>
+                        <p>
+                          Theory is essential, but practical experience is paramount. Through a series of engaging exercises, live demonstrations, and real-world case studies, you'll develop the skills necessary to tackle any design challenge with confidence.
+                        </p>
+                      </div>
                     </div>
                   </div>
-                  <div class="col-md-6 item pr-sm-5 margin-b-5">
-                    <div class="item_pro" data-aos="fade-up" data-aos-delay="200">
-                      <div class="icon_t">
-                        <img src="https://orinostudio.com/rakon-theme/assets/img/icons/Shield-check.svg" />
+
+                  <div class="col-md-6 item">
+                    <div class="items_serv sevice_block" data-aos="fade-up" data-aos-delay="200">
+                      <div class="icon--top">
+                        <i class="fa fa-wrench"></i>
                       </div>
-                      <h3>Commitment to Security</h3>
-                      <p>
-                        Our many security features include Multi Factor
-                        Authentication, auto-enabled sFTP .
-                      </p>
+                      <div class="txt">
+                        <h3>Cutting-Edge Techniques and Tools:</h3>
+                        <p>
+                          Stay ahead of the curve with the latest design methodologies and tools used by top professionals. Discover how to leverage technology to streamline your workflow and create exceptional designs that leave a lasting impact.
+                        </p>
+                      </div>
                     </div>
                   </div>
-                  <div class="col-md-6 item pr-sm-5 margin-b-5">
-                    <div class="item_pro" data-aos="fade-up" data-aos-delay="0">
-                      <div class="icon_t">
-                        <img src="https://orinostudio.com/rakon-theme/assets/img/icons/Door-open.svg" />
+
+                  <div class="col-md-6 item">
+                    <div class="items_serv sevice_block" data-aos="fade-up" data-aos-delay="300">
+                      <div class="icon--top">
+                        <i class="fa fa-comments-o"></i>
                       </div>
-                      <h3>Embrace Open Source</h3>
-                      <p>
-                        We strongly believe in providing open source solutions
-                        to our customers whenever possible.
-                      </p>
-                    </div>
-                  </div>
-                  <div class="col-md-6 item pr-sm-5 margin-b-5">
-                    <div class="item_pro" data-aos="fade-up" data-aos-delay="100">
-                      <div class="icon_t">
-                        <img src="https://orinostudio.com/rakon-theme/assets/img/icons/Support.svg" />
+                      <div class="txt">
+                        <h3>Interactive Live Sessions:</h3>
+                        <p>
+                          Interact directly with our expert instructors in live sessions conducted via Zoom or Google Meet. Ask questions, seek personalized feedback, and collaborate with fellow participants from around the world, fostering a vibrant and supportive community.
+                        </p>
                       </div>
-                      <h3>24/7 Support</h3>
-                      <p>
-                        Our in-house team members do their best to provide
-                        one-touch resolution, making you feel like a part of
-                        our family.
-                      </p>
-                    </div>
-                  </div>
-                  <div class="col-md-6 item pr-sm-5 margin-b-5">
-                    <div class="item_pro" data-aos="fade-up" data-aos-delay="200">
-                      <div class="icon_t">
-                        <img src="https://orinostudio.com/rakon-theme/assets/img/icons/Angle-double-up.svg" />
-                      </div>
-                      <h3>100% Uptime Guaranteed</h3>
-                      <p>
-                        We strongly believe in providing open source solutions
-                        to our customers whenever possible.
-                      </p>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <!-- .container -->
         </section>
-        <!-- End Section Products -->
+        <!-- End Services -->
 
-        <!-- Start Section Products -->
-        <section class="products_section product_demo2 product_demo4 padding-t-12" id="Features">
-          <div class="container-fluid">
-            <div class="item_full">
-              <div class="row">
-                <div class="col-lg-7">
-                  <div class="img_produc">
-                    <img class="img-fluid" src="assets/img/03.png" />
-                  </div>
-                </div>
-                <div class="col-lg-5 pl-sm-5 my-auto">
-                  <div class="item_content">
-                    <div class="row">
-                      <div class="col-lg-8">
-                        <div class="title_sections">
-                          <h2>User-Friendly Control Panel</h2>
-                          <p>
-                            Seamlessly see the tasks that need your attention,
-                            check when your next meeting is coming up, and keep
-                            up with your progress.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="row">
-                      <div class="col-md-6 col-lg-8 pr-sm-5 mb-4 mb-sm-5">
-                        <div class="item_pro" data-aos="fade-up" data-aos-delay="0">
-                          <div class="icon_t">
-                            <img src="https://orinostudio.com/rakon-theme/assets/img/icons/Settings.svg" />
-                          </div>
-                          <h3>Ease of Use</h3>
-                          <p>
-                            A wide variety of tools to satisfy advanced user and
-                            website developer needs.
-                          </p>
-                        </div>
-                      </div>
-                      <div class="col-md-6 col-lg-8">
-                        <div class="item_pro item_red" data-aos="fade-up" data-aos-delay="100">
-                          <div class="icon_t">
-                            <img src="https://orinostudio.com/rakon-theme/assets/img/icons/Thunder-move.svg" />
-                          </div>
-                          <h3>Powerful</h3>
-                          <p>
-                            Get more speed, better SEO, visitor retention and
-                            conversions with our custom-built WP optimization
-                            stack and LiteSpeed cache.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- .container -->
-        </section>
-        <!-- End Section Products -->
 
         <!-- Start money section -->
         <section class="money_section padding-t-3 margin-t-12">
@@ -721,218 +1031,7 @@ require_once('head.php'); ?>
         </section>
         <!-- End. money -->
 
-        <!-- Start FAQ -->
-        <section class="faq_section faq_demo3">
-          <div class="container">
-            <div class="padding-t-12" id="faq">
-              <div class="row justify-content-md-center">
-                <div class="col-md-8 col-lg-6 text-center">
-                  <div class="title_sections">
-                    <div class="before_title">
-                      <span>Frequently Asked</span>
-                      <span class="c-red">Questions</span>
-                    </div>
-                    <h2>Want to ask something <br />from us?</h2>
-                  </div>
-                </div>
-              </div>
-              <!-- block Collapse -->
-              <div class="block_faq">
-                <div class="accordion" id="accordionExample">
-                  <div class="row justify-content-md-center">
-                    <div class="col-md-6 col-lg-5">
-                      <div class="card">
-                        <div class="card-header active" id="headingOne">
-                          <h3 class="mb-0">
-                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                              How do I make a yearly payment?
-                            </button>
-                          </h3>
-                        </div>
 
-                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-                          <div class="card-body">
-                            <p>
-                              Serenity Is Multi-Faceted Blockchain Based
-                              Ecosystem, Energy Retailer For The People,
-                              Focusing On The Promotion Of Sustainable Living,
-                              Renewable Energy Production And Smart Energy
-                              Grid Utility Services.
-                            </p>
-                            <p>
-                              We Aim To Become The Incubator For New Renewable
-                              Energy-Related Projects By Using The Power Of
-                              Crowd.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="card">
-                        <div class="card-header" id="headingTwo">
-                          <h3 class="mb-0">
-                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-                              Can I have team members on different plans?
-                            </button>
-                          </h3>
-                        </div>
-
-                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                          <div class="card-body">
-                            <p>
-                              Serenity Is Multi-Faceted Blockchain Based
-                              Ecosystem, Energy Retailer For The People,
-                              Focusing On The Promotion Of Sustainable Living,
-                              Renewable Energy Production And Smart Energy
-                              Grid Utility Services.
-                            </p>
-                            <p>
-                              We Aim To Become The Incubator For New Renewable
-                              Energy-Related Projects By Using The Power Of
-                              Crowd.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="card">
-                        <div class="card-header" id="headingThree">
-                          <h3 class="mb-0">
-                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
-                              How this technology works?
-                            </button>
-                          </h3>
-                        </div>
-
-                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-                          <div class="card-body">
-                            <p>
-                              Serenity Is Multi-Faceted Blockchain Based
-                              Ecosystem, Energy Retailer For The People,
-                              Focusing On The Promotion Of Sustainable Living,
-                              Renewable Energy Production And Smart Energy
-                              Grid Utility Services.
-                            </p>
-                            <p>
-                              We Aim To Become The Incubator For New Renewable
-                              Energy-Related Projects By Using The Power Of
-                              Crowd.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="card">
-                        <div class="card-header" id="headingFour">
-                          <h3 class="mb-0">
-                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
-                              What is the comunity benefit?
-                            </button>
-                          </h3>
-                        </div>
-
-                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
-                          <div class="card-body">
-                            <p>
-                              Serenity Is Multi-Faceted Blockchain Based
-                              Ecosystem, Energy Retailer For The People,
-                              Focusing On The Promotion Of Sustainable Living,
-                              Renewable Energy Production And Smart Energy
-                              Grid Utility Services.
-                            </p>
-                            <p>
-                              We Aim To Become The Incubator For New Renewable
-                              Energy-Related Projects By Using The Power Of
-                              Crowd.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-6 col-lg-5">
-                      <div class="card">
-                        <div class="card-header" id="headingFive">
-                          <h3 class="mb-0">
-                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
-                              What payment types do you accept?
-                            </button>
-                          </h3>
-                        </div>
-
-                        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
-                          <div class="card-body">
-                            <p>
-                              Serenity Is Multi-Faceted Blockchain Based
-                              Ecosystem, Energy Retailer For The People,
-                              Focusing On The Promotion Of Sustainable Living,
-                              Renewable Energy Production And Smart Energy
-                              Grid Utility Services.
-                            </p>
-                            <p>
-                              We Aim To Become The Incubator For New Renewable
-                              Energy-Related Projects By Using The Power Of
-                              Crowd.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="card">
-                        <div class="card-header" id="headingSix">
-                          <h3 class="mb-0">
-                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
-                              Website reponse taking time, how to improve?
-                            </button>
-                          </h3>
-                        </div>
-
-                        <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
-                          <div class="card-body">
-                            <p>
-                              Serenity Is Multi-Faceted Blockchain Based
-                              Ecosystem, Energy Retailer For The People,
-                              Focusing On The Promotion Of Sustainable Living,
-                              Renewable Energy Production And Smart Energy
-                              Grid Utility Services.
-                            </p>
-                            <p>
-                              We Aim To Become The Incubator For New Renewable
-                              Energy-Related Projects By Using The Power Of
-                              Crowd.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="card">
-                        <div class="card-header" id="headingSeven">
-                          <h3 class="mb-0">
-                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">
-                              How to contact with Customer Service?
-                            </button>
-                          </h3>
-                        </div>
-
-                        <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample">
-                          <div class="card-body">
-                            <p>
-                              Serenity Is Multi-Faceted Blockchain Based
-                              Ecosystem, Energy Retailer For The People,
-                              Focusing On The Promotion Of Sustainable Living,
-                              Renewable Energy Production And Smart Energy
-                              Grid Utility Services.
-                            </p>
-                            <p>
-                              We Aim To Become The Incubator For New Renewable
-                              Energy-Related Projects By Using The Power Of
-                              Crowd.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <!-- End FAQ -->
 
         <!-- Start Some help -->
         <section class="need_help_sec padding-t-12">
@@ -963,107 +1062,6 @@ require_once('head.php'); ?>
         </section>
         <!-- End. some help -->
 
-        <!-- Start Grid Testimonial -->
-        <section class="ggrid_testmonials padding-t-12" id="Testimonial">
-          <div class="container">
-            <div class="row justify-content-md-center">
-              <div class="col-md-6 col-lg-6 text-center">
-                <div class="title_sections">
-                  <div class="before_title">
-                    <span class="c-red">Testimonial</span>
-                  </div>
-                  <h2>What Our Clients Say</h2>
-                </div>
-              </div>
-            </div>
-            <div class="row justify-content-md-center">
-              <div class="col-md-6 col-lg-5">
-                <div class="item_tmonial">
-                  <p class="r_reviews">
-                    "Impressed with master class support of the team and
-                    really look forward for the future.Really, really well
-                    made! Love that each component is handmade and customised.
-                    Great Work!"
-                  </p>
-                  <div class="media item_user🐱‍👓">
-                    <img src="assets/img/persons/02.png" />
-                    <div class="media-body">
-                      <div class="txt">
-                        <h5>Tommy Reaves <a href="#">@tommyres</a></h5>
-                        <p>
-                          CEO Founder
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6 col-lg-5">
-                <div class="item_tmonial">
-                  <p class="r_reviews">
-                    "Impressed with master class support of the team and
-                    really look forward for the future.Really, really well
-                    made! Love that each component is handmade and customised.
-                    Great Work!"
-                  </p>
-                  <div class="media item_user🐱‍👓">
-                    <img src="assets/img/persons/03.png" />
-                    <div class="media-body">
-                      <div class="txt">
-                        <h5>Cassandra Noel <a href="#">@cassandra</a></h5>
-                        <p>
-                          President
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6 col-lg-5">
-                <div class="item_tmonial">
-                  <p class="r_reviews">
-                    "Impressed with master class support of the team and
-                    really look forward for the future.Really, really well
-                    made! Love that each component is handmade and customised.
-                    Great Work!"
-                  </p>
-                  <div class="media item_user🐱‍👓">
-                    <img src="assets/img/persons/01.png" />
-                    <div class="media-body">
-                      <div class="txt">
-                        <h5>Paul Vaughn <a href="#">@paul154</a></h5>
-                        <p>
-                          Project Manager
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6 col-lg-5">
-                <div class="item_tmonial">
-                  <p class="r_reviews">
-                    "Impressed with master class support of the team and
-                    really look forward for the future.Really, really well
-                    made! Love that each component is handmade and customised.
-                    Great Work!"
-                  </p>
-                  <div class="media item_user🐱‍👓">
-                    <img src="assets/img/persons/15.png" />
-                    <div class="media-body">
-                      <div class="txt">
-                        <h5>Steven Kelly <a href="#">@tommyres</a></h5>
-                        <p>
-                          Secretary & Founder
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
       </main>
       <!-- end main -->
     </div>

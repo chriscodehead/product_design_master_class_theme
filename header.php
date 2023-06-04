@@ -2,7 +2,7 @@
  <div class="container">
   <nav class="navbar navbar-expand-lg navbar-light header-nav-left nav-product">
    <a class="navbar-brand" href="./">
-    <img width="100" class="" src="img/logo.png" alt="logo" />
+    <img width="200" class="" src="img/logo.png" alt="logo" />
    </a>
 
    <button class="navbar-toggler menu ripplemenu" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

@@ -10297,7 +10297,7 @@ software_web
   position: relative;
   padding: 2.5rem 2rem;
   text-align: center;
-  height: 550px;
+  /* height: 550px; */
 }
 @media (max-width: 991px) {
   .pricing_section .blocks_pricing .item__price {
@@ -13263,8 +13263,9 @@ software_web
   overflow: hidden;
   border-radius: 12px;
   padding: 2rem;
-  height: 530px;
-  min-height: 530px;
+  /* height: 530px; */
+  /* min-height: 530px; */
+  margin-bottom: 30px;
 }
 @media (max-width: 767px) {
   .abo_company .gq_item {

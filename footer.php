@@ -4,17 +4,16 @@
    <div class="row">
     <div class="col-md-6 col-lg-4 mb-4 mb-sm-0">
      <div class="item_about">
-      <a class="logo" href="./">
-       <img src="https://orinostudio.com/rakon-theme/assets/img/logo.svg" alt="" />
+      <a class="" href="./">
+       <img width="200" src="img/logo.png" alt="" />
       </a>
       <p>
-       Rakon is a simple, elegant, and secure way to build your
-       bitcoin and crypto portfolio.
+       Master Digital Product Design: UX Research & UI Design Cohort 2.0. A complete design education for product designers: Research the user experience, then design a great user interface.
       </p>
       <div class="address">
        <span>1989 Don Jackson Lane</span>
        <span>Call us:
-        <a class="c-red" href="tel:8089569599">808-956-9599</a></span>
+        <a class="c-red" href="tel:<?php print $sitePhone; ?>"><?php print $sitePhone; ?></a></span>
       </div>
      </div>
     </div>
@@ -43,7 +42,7 @@
        Subscribe to get the latest<br />
        news form us
       </p>
-      <form class="form-row">
+      <form style="display: none;" class="form-row">
        <div class="col-md-11 form-group subscribebtn">
         <div class="item_input">
          <input type="email" class="form-control rounded-pill" id="exampleInputEmail1" placeholder="Enter email address" aria-describedby="emailHelp" />
@@ -56,21 +55,24 @@
      </div>
     </div>
    </div>
+
    <div class="row">
     <div class="col-md-6 margin-t-1">
-     <select data-menu>
+     <!-- <select data-menu>
       <option>French</option>
       <option selected>English</option>
       <option>Arabic</option>
       <option>Russian</option>
-     </select>
+     </select> -->
+
     </div>
    </div>
+
    <div class="col-12 text-center padding-t-6">
     <div class="copyright">
-     <span>© 2020
-      <a href="https://themeforest.net/user/orinostu" target="_blank">OrinoStu.</a>
-      All Right Reseved</span>
+     <span>© <?php print $siteYear; ?>
+      <a href="./" target="_blank"><?php print $siteName; ?>.</a> By <a href="https://centadesk.com">Centadesk.</a>
+      All Right Reseved.</span>
     </div>
    </div>
   </div>
@@ -114,7 +116,7 @@
 <!-- Start Section Loader -->
 <section class="loading_overlay">
  <div class="loader_logo">
-  <img class="" width="200" src="img/logo.png" />
+  <img class="" width="300" src="img/logo.png" />
  </div>
 </section>
 <!-- End. Loader -->
@@ -158,6 +160,9 @@
 <script src="assets/js/vendor/aos.js" type="text/javascript"></script>
 <script src="assets/js/main.js" type="text/javascript"></script>
 <script src="assets/js/pages/hosting.js" type="text/javascript"></script>
+
+
+
 </body>
 
 </html>

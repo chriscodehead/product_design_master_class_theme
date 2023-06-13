@@ -1,8 +1,8 @@
 <?php
 require_once('include.php');
-$title = 'Product Design | UI/UX Master Class - Creative Hub By Centadesk';
-$description = '';
-$keyword = '';
+$title = 'Product Design Online Class | UI/UX Master Class - ' . $siteName . ' By Centadesk';
+$description = 'Welcome to our website, your gateway to unlocking your creative potential in the world of product design. Discover our transformative master class, designed to equip you with the skills, knowledge, and mentorship you need to excel. Join our vibrant community of passionate designers and shape the future through innovative and impactful designs.';
+$keyword = ' product design master class, creative potential, transformative learning, skills development, mentorship, vibrant community, innovative designs, impactful designs';
 require_once('head.php'); ?>
 
 <body>
@@ -13,6 +13,7 @@ require_once('head.php'); ?>
       <!-- End header -->
       <!-- Stat main -->
       <main data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+
         <!-- Start Banner Section -->
         <section class="demo_1 banner_demo6 banner_section">
           <div class="container">
@@ -31,16 +32,17 @@ require_once('head.php'); ?>
                   </p>
                   <div class="prices">
                     <span>Starting at only</span>
-                    <p>₦20,000/* <strike>₦150,000</strike> </p>
+                    <p>₦<?php print number_format($initial_pay); ?>/* <strike>₦<?php print number_format($oldprice); ?></strike> </p>
                   </div>
                 </div>
-                <a href="#register" class="btn btn_md_primary bg-red effect-letter rounded-8 c-white mb-3 mb-sm-0 mr-2">
-                  Get Started</a>
+                <a href="apply" class="btn btn_md_primary bg-red effect-letter rounded-8 c-white mb-3 mb-sm-0 mr-2">
+                  Apply Now!</a>
                 <button type="button" class="btn btn_watch btn_md_primary btn_video" data-toggle="modal" data-src="https://www.youtube.com/embed/VvHoHw5AWTk" data-target="#mdllVideo">
                   <i class="fa fa-trophy"></i>
                   Certified Course | Watch Video
                 </button>
               </div>
+
             </div>
           </div>
         </section>
@@ -128,7 +130,7 @@ require_once('head.php'); ?>
 
                     <div class="col-md-6 col-lg-12">
                       <div class="item__price popular">
-                        <img class="icon_popular" src="https://orinostudio.com/rakon-theme/assets/img/stars.svg" />
+                        <img class="icon_popular" src="img/stars.svg" />
                         <div class="logo_price">
                           <div class="icon_gif">
                             <img class="gif" src="assets/img/gif/winking_face.gif" />
@@ -187,19 +189,24 @@ require_once('head.php'); ?>
 
                     <div class="col-md-6 col-lg-12">
                       <div class="item__price popular">
-                        <img class="icon_popular" src="https://orinostudio.com/rakon-theme/assets/img/stars.svg" />
+                        <img class="icon_popular" src="img/stars.svg" />
                         <div class="logo_price">
                           <div class="icon_gif">
                             <img class="gif" src="assets/img/gif/winking_face.gif" />
                           </div>
                         </div>
+                        <center>
+                          <h1>
+                            <div style="font-weight: 1000; font-size: 50px;" class="text-primary" id="timer"></div>
+                          </h1>
+                        </center>
                         <h4 class="name_p">Product Design (UI/UX)</h4>
                         <p class="info_price">
                           Master Digital Product Design: UX Research & UI Design
                         </p>
                         <div class="number">
-                          <span class="n_price">₦20,000</span>
-                          <span class="duration">/* <strike>₦150,000</strike> </span>
+                          <span class="n_price">₦<?php print number_format($initial_pay); ?></span>
+                          <span class="duration">/* <strike>₦<?php print number_format($oldprice); ?></strike> </span>
                         </div>
                         <!-- icon Semicircle -->
                         <svg width="22" height="19" viewBox="0 0 22 19">
@@ -266,12 +273,9 @@ require_once('head.php'); ?>
                               <i class="fa fa-check text-primary"></i> Opportunity to network with top product desigers
                             </li>
                           </ul>
-                          <button type="button" class="btn effect-letter btn_md_primary rounded-8 c-white bg-yollow">
-                            Enrol Now!!!
-                          </button>
 
-                          <div style="display: none;" class="col-lg-12">
-                            <h2 class="text-dark pt-5">What you'll learn</h2>
+                          <div class="col-lg-12">
+                            <h1 class="text-dark pt-5">What you'll learn</h1>
                             <ul class="list-group">
                               <li class="list-group-item">
                                 <i class="fa fa-check text-primary"></i>
@@ -329,6 +333,41 @@ require_once('head.php'); ?>
 
                           </div>
 
+                          <div class="col-lg-12">
+                            <h1 class="text-dark pt-5">Essential Items For Program Success</h1>
+                            <ul class="list-group">
+                              <li class="list-group-item">
+                                <i class="fa fa-check text-primary"></i>
+                                A laptop or desktop computer
+                              </li>
+                              <li class="list-group-item">
+                                <i class="fa fa-check text-primary"></i>
+                                Internet connection
+                              </li>
+                              <li class="list-group-item">
+                                <i class="fa fa-check text-primary"></i>
+                                You will need to be on Telegram where you will be mentored in our exclusive groups for the course.
+                              </li>
+                              <li class="list-group-item">
+                                <i class="fa fa-check text-primary"></i>
+                                Figma for the UI/UX Design course. You do not have to download this application since it is web-based as well.
+                              </li>
+                              <li class="list-group-item">
+                                <i class="fa fa-check text-primary"></i>
+                                and your time 🤝
+                              </li>
+
+                            </ul>
+
+                          </div>
+
+
+                          <a href="apply"><button type="button" class="btn effect-letter btn_md_primary rounded-8 c-white bg-yollow">
+                              Apply Now!!!
+                            </button></a>
+
+
+
                         </div>
                       </div>
 
@@ -346,7 +385,7 @@ require_once('head.php'); ?>
 
 
         <!-- Start Pricing -->
-        <section class="pricing_section margin-b-5">
+        <section class="pricing_section margin-b-5" id="Curriculum">
           <div class="container">
             <div class="row justify-content-md-center">
               <div class="col-md-8 col-lg-6 text-center">
@@ -444,9 +483,9 @@ require_once('head.php'); ?>
                           Introduction to prototyping.
                         </li>
                       </ul>
-                      <button type="button" class="btn effect-letter scale rounded-pill btn_md_primary c-white bg-blue">
-                        Get Started
-                      </button>
+                      <a href="apply"><button type="button" class="btn effect-letter scale rounded-pill btn_md_primary c-white bg-blue">
+                          Apply Now!
+                        </button></a>
                     </div>
                   </div>
                 </div>
@@ -520,9 +559,9 @@ require_once('head.php'); ?>
                           Prototyping the mobile UI mockups.
                         </li>
                       </ul>
-                      <button type="button" class="btn effect-letter scale rounded-pill btn_md_primary c-white bg-yollow">
-                        Get Started
-                      </button>
+                      <a href="apply"><button type="button" class="btn effect-letter scale rounded-pill btn_md_primary c-white bg-yollow">
+                          Apply Now!
+                        </button></a>
                     </div>
                   </div>
                 </div>
@@ -556,9 +595,9 @@ require_once('head.php'); ?>
                         </li> -->
 
                       </ul>
-                      <button type="button" class="btn scale effect-letter rounded-pill btn_md_primary c-white bg-orange-red">
-                        Get Started
-                      </button>
+                      <a href="apply"><button type="button" class="btn scale effect-letter rounded-pill btn_md_primary c-white bg-orange-red">
+                          Apply Now!
+                        </button></a>
                     </div>
                   </div>
                 </div>
@@ -574,15 +613,36 @@ require_once('head.php'); ?>
 
 
         <!-- Start Banner Section -->
-        <section class="demo_1 banner_section banner_demo7">
+        <section class="demo_1 banner_section banner_demo7" id="About">
           <div class="container">
             <div class="row">
               <div class="col-md-5 my-auto">
                 <div class="banner_title">
                   <h1 style="font-size: 40px;">Get ready to revolutionize the world of product design.</h1>
+                  <p>About Us
+
+                    At <?php print $siteName; ?>, we are passionate about design and committed to empowering individuals to unleash their creative potential. As a leading provider of design education, we offer transformative master classes that equip students with the skills, knowledge, and confidence to excel in the field of product design.</p>
                   <p>
-                    Enroll in our Product Design Master Class today and gain access to a transformative learning experience. Earn a certificate, immerse yourself in practical training, and receive invaluable mentorship—empowering you to become a confident, skilled, and sought-after product designer. Don't miss this opportunity to shape your future in the dynamic world of design!
-                  </p>
+
+                    Our team of industry experts, including experienced designers and educators, has carefully crafted a comprehensive curriculum that combines theory and practical training. Through engaging exercises, real-world case studies, and interactive live sessions, we ensure that our students gain hands-on experience and a deep understanding of the design process.</p>
+                  <p>
+
+                    We believe in the power of mentorship and personalized guidance. That's why our master classes provide direct access to industry professionals who offer invaluable insights, feedback, and support. We foster a collaborative and inclusive learning environment, encouraging students to connect with fellow designers, exchange ideas, and build lasting relationships.</p>
+                  <p>
+
+                    At <?php print $siteName; ?>, we are committed to staying at the forefront of design innovation. We constantly update our curriculum to incorporate the latest techniques, tools, and industry trends. By embracing technology and leveraging its potential, we prepare our students to thrive in an ever-evolving design landscape.</p>
+                  <p>
+
+                    We are proud to have inspired and nurtured countless aspiring designers who have gone on to make a significant impact in their respective fields. Whether you are a beginner taking your first steps in design or an experienced professional seeking to refine your skills, we are here to support you on your journey towards achieving your design goals.</p>
+                  <p>
+
+                    Join us at <?php print $siteName; ?> and unlock your creative potential. Together, let's shape the future of design and make a lasting impact.</p>
+                  <p>
+
+                    Welcome to our vibrant community of passionate designers!
+
+                    <?php print $siteName; ?></p>
+
                   <a style="display: none;" href="#" class="btn btn_md_primary effect-letter rounded-8 bg-blue c-white">Discover</a>
                   <div style="display: none;" class="margin-t-8">
                     <button type="button" class="btn btn_video" data-toggle="modal" data-src="https://www.youtube.com/embed/VvHoHw5AWTk" data-target="#mdllVideo">
@@ -653,9 +713,109 @@ require_once('head.php'); ?>
 
 
         <!-- Start Services -->
-        <section class="products_section product_demo2 features_hosting service_demo3 margin-t-8" id="Services">
+        <section class="service_demo3 margin-t-8 default_footer dark padding-t-12" id="Apply">
           <div class="container">
+            <img class="shape_overlay" src="img/shape-lines.svg" />
             <div class="row">
+              <div class="col-lg-12 margin-b-3">
+                <div class="title_sections margin-b-2">
+                  <h2>Ready to get started with product design?</h2>
+                  <p>
+                    Secure your spot in this exclusive master class today and unlock a world of design possibilities. Don't miss out on this extraordinary opportunity to learn, grow, and connect with fellow designers.
+                  </p>
+                  <p>
+                    Enroll in our Product Design Master Class today and gain access to a transformative learning experience. Earn a certificate, immerse yourself in practical training, and receive invaluable mentorship—empowering you to become a confident, skilled, and sought-after product designer. Don't miss this opportunity to shape your future in the dynamic world of design!
+                  </p>
+                </div>
+                <div class="dashed-line margin-b-2"></div>
+                <!-- Start Testimonial -->
+                <div class="block_testimonial">
+                  <h3 class="c-white">What Our Students Say</h3>
+
+                  <!-- Start Testimonial -->
+                  <!-- Swiper -->
+                  <div class="swiper-container gallery-top content_swiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <div class="content">
+                          "The Product Design Master Class exceeded all my expectations! The practical training and mentorship provided a solid foundation for me to refine my design skills. I highly recommend this class to anyone looking to take their product design expertise to the next level."
+                        </div>
+                        <div class="man👨">
+                          <h4 class="d-inline-block">Sarah D</h4>
+                          <a class="d-inline-block" href="#">@SarahD</a>
+                          <h6>Student</h6>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="content">
+                          "Enrolling in the Product Design Master Class was the best decision I made for my career. The hands-on experience and guidance from industry experts were invaluable. This class helped me unlock my creative potential and boosted my confidence as a designer."
+                        </div>
+                        <div class="man👨">
+                          <h4 class="d-inline-block">John M</h4>
+                          <a class="d-inline-block" href="#">@JohnM</a>
+                          <h6>Student</h6>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="content">
+                          "The Product Design Master Class not only equipped me with practical skills but also inspired me to think outside the box. The curriculum was comprehensive, and the instructors were engaging and supportive. I feel more prepared than ever to tackle any design challenge that comes my way."
+                        </div>
+                        <div class="man👨">
+                          <h4 class="d-inline-block">Emily R</h4>
+                          <a class="d-inline-block" href="#">@Emily R</a>
+                          <h6>Student</h6>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div class="content">
+                          "I can't recommend the Product Design Master Class enough! The mentorship I received from the tutors was exceptional. Their insights and feedback helped me grow as a designer and gave me the confidence to pursue my dream projects. This class is a game-changer!"
+                        </div>
+                        <div class="man👨">
+                          <h4 class="d-inline-block">Michael S</h4>
+                          <a class="d-inline-block" href="#">@MichaelS</a>
+                          <h6>Student</h6>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-container gallery-thumbs img_persong">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <img class="pagination rounded-circle" src="img/01.png" />
+                      </div>
+                      <div class="swiper-slide">
+                        <img class="pagination rounded-circle" src="img/02.png" />
+                      </div>
+                      <div class="swiper-slide">
+                        <img class="pagination rounded-circle" src="img/03.png" />
+                      </div>
+                      <div class="swiper-slide">
+                        <img class="pagination rounded-circle" src="img/07.png" />
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End Swiper -->
+                  <div style="display: none;" class="logos-simple mt-4">
+                    <a href="#">
+                      <img src="img/slack-w.png" />
+                    </a>
+                    <a href="#">
+                      <img src="img/google-w.png" />
+                    </a>
+                    <a href="#">
+                      <img src="img/airbnb-w.png" />
+                    </a>
+                  </div>
+
+                  <div class="col-12">
+                    <a href="apply"><button id="sub" name="sub" class="btn mt-3 rounded-pill btn_sm_primary c-white effect-letter bg-blue">
+                        Apply Now!</button></a>
+                  </div>
+
+                </div>
+              </div>
+
+
 
             </div>
           </div>
@@ -664,7 +824,7 @@ require_once('head.php'); ?>
         <!-- End. Services -->
 
         <!-- Start Works -->
-        <section class="works_demo2 gng_serv_about padding-t-5" id="Works">
+        <section class="works_demo2 gng_serv_about padding-t-5" id="Projects">
           <div class="container">
             <div class="row">
               <div class="col-md-6">
@@ -673,13 +833,13 @@ require_once('head.php'); ?>
                     <!-- <span>Clients We</span>
                     <span class="c-blue">Work For</span> -->
                   </div>
-                  <h2>Our Recent Projects.</h2>
+                  <h2 class="text-secondary">Projects.</h2>
                 </div>
               </div>
             </div>
             <div class="row">
               <div class="col-lg-8">
-                <a href="#" class="item_ig item_mywork">
+                <a href="https://www.behance.net/barbaraij" class="item_ig item_mywork">
                   <div class="mg_img">
                     <img class="item_pic" src="assets/img/0321.png" />
                   </div>
@@ -699,7 +859,7 @@ require_once('head.php'); ?>
                   <div class="icon_played">
 
                   </div>
-                  <a href="#" class="d-block">
+                  <a href="https://www.behance.net/barbaraij" class="d-block">
                     <div class="mg_img">
                       <img class="item_pic" src="assets/img/097.png" />
                     </div>
@@ -715,7 +875,7 @@ require_once('head.php'); ?>
                 </div>
               </div>
               <div class="col-lg-4">
-                <a href="#" class="item_ig item_mywork">
+                <a href="https://www.behance.net/barbaraij" class="item_ig item_mywork">
                   <div class="mg_img">
                     <video class="item_pic" playsinline muted autoplay loop src="assets/img/rezz-jamming_2.mp4"></video>
                   </div>
@@ -729,7 +889,7 @@ require_once('head.php'); ?>
                 </a>
               </div>
               <div class="col-lg-8">
-                <a href="#" class="item_ig item_mywork">
+                <a href="https://www.behance.net/barbaraij" class="item_ig item_mywork">
                   <div class="mg_img">
                     <img class="item_pic" src="assets/img/78970654.png" />
                   </div>
@@ -749,85 +909,33 @@ require_once('head.php'); ?>
         </section>
         <!-- End. works -->
 
-
-        <!-- Start Testimonial -->
-        <section class="testimonial_demo2 padding-t-12">
-          <div class="container">
-            <div class="row justify-content-between">
-              <div class="col-lg-5 mb-4 mb-lg-0">
-                <div class="item_mmon">
-                  <div class="profile_user">
-                    <img src="img/christian-chika.png" />
-                    <div class="categ">
-                      <span>Project Manager</span>
-                    </div>
-                  </div>
-                  <div class="info_persons">
-                    <p>
-                      "Mobiteam created our full Visual Brand Identity and our
-                      online store. We worked together on this project for 4
-                      months and I have exclusively positive feedback. We were
-                      far from IT and development."
-                    </p>
-                    <h5>Tommy Reaves</h5>
-                    <span>Rexona</span>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-5">
-                <div class="item_mmon">
-                  <div class="profile_user">
-                    <img src="assets/img/13.png" />
-                    <div class="categ">
-                      <span>CEO Founder</span>
-                    </div>
-                  </div>
-                  <div class="info_persons">
-                    <p>
-                      "We looked for an ambitious team to join us for this
-                      realization journey. Right from the beginning, we were
-                      impressed how Marcel and his team carefully and
-                      proactively read and commented on our proposal."
-                    </p>
-                    <h5>Lydia James</h5>
-                    <span>orino Stu.</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <!-- End. Testimonial -->
-
-
         <!-- strat Blog -->
         <section class="blog_agency margin-t-5 padding-t-12" id="Blog">
           <div class="container">
             <div class="row">
               <div class="col-md-6 col-lg-3">
                 <div class="title_sections">
-                  <h2>We Write Insightful Stuff</h2>
+                  <h2>Unlock Your Creative Potential</h2>
                 </div>
               </div>
             </div>
             <div class="row">
               <div class="col-lg-4 mb-3 mb-lg-0 items">
-                <a href="#" class="item_art">
+                <a href="https://dribbble.com/maduip" class="item_art">
                   <div class="item_top">
                     <div class="date_mo">
                       <h5>31</h5>
                       <span>Mar</span>
                     </div>
                     <div class="item_cai">
-                      <span class="c-red">Popular Posts</span>
-                      <div class="name_pub">By John Smith</div>
+                      <span class="c-red">Design</span>
+                      <div class="name_pub">By Instructor</div>
                     </div>
                   </div>
                   <img src="assets/img/097422.png" />
                   <div class="ga_info">
                     <h4>
-                      Should Your Brand ride the Coronavirus Wave to drive
-                      gains?
+                      UI / Visual Design, Product Design, UX Design / Research
                     </h4>
                     <div class="tags__bottom">
                       <span>#Google </span>
@@ -838,7 +946,7 @@ require_once('head.php'); ?>
                 </a>
               </div>
               <div class="col-lg-4 mb-3 mb-lg-0 items">
-                <a href="#" class="item_art">
+                <a href="https://www.behance.net/barbaraij" class="item_art">
                   <div class="item_top">
                     <div class="date_mo">
                       <h5>4</h5>
@@ -846,14 +954,13 @@ require_once('head.php'); ?>
                     </div>
                     <div class="item_cai">
                       <span>Design</span>
-                      <div class="name_pub">By John Smith</div>
+                      <div class="name_pub">By Ifeanyi Madu</div>
                     </div>
                   </div>
                   <img src="assets/img/654.png" />
                   <div class="ga_info">
                     <h4>
-                      Should Your Brand ride the Coronavirus Wave to drive
-                      gains?
+                      UI / Visual Design, Product Design, UX Design / Research?
                     </h4>
                     <div class="tags__bottom">
                       <span>#Google </span>
@@ -864,17 +971,17 @@ require_once('head.php'); ?>
                 </a>
               </div>
               <div class="col-lg-4 mb-3 mb-lg-0 items">
-                <a href="#" class="item_art is_image">
-                  <img src="assets/img/09874.png" />
+                <a href="https://dribbble.com/maduip" class="item_art is_image">
+                  <img src="img/original-68c44c0f61fd9d248a287af746a1aa95.png" />
                 </a>
               </div>
               <div class="col-lg-4 mb-3 mb-lg-0 items">
-                <a href="#" class="item_art is_image">
-                  <img src="assets/img/06541.png" />
+                <a href="https://dribbble.com/maduip" class="item_art is_image">
+                  <img src="img/original-b0fabf7ac42c227c3b5a63bb1a098809.png" />
                 </a>
               </div>
               <div class="col-lg-4 mb-3 mb-lg-0 items">
-                <a href="#" class="item_art">
+                <a href="https://www.behance.net/barbaraij" class="item_art">
                   <div class="item_top">
                     <div class="date_mo">
                       <h5>9</h5>
@@ -882,14 +989,13 @@ require_once('head.php'); ?>
                     </div>
                     <div class="item_cai">
                       <span>Developer</span>
-                      <div class="name_pub">By John Smith</div>
+                      <div class="name_pub">By Instructor</div>
                     </div>
                   </div>
                   <img src="assets/img/0654.png" />
                   <div class="ga_info">
                     <h4>
-                      Should Your Brand ride the Coronavirus Wave to drive
-                      gains?
+                      UI / Visual Design, Product Design, UX Design / Research?
                     </h4>
                     <div class="tags__bottom">
                       <span>#Google </span>
@@ -900,7 +1006,7 @@ require_once('head.php'); ?>
                 </a>
               </div>
               <div class="col-lg-4 mb-3 mb-lg-0 items">
-                <a href="#" class="item_art">
+                <a href="https://www.behance.net/barbaraij" class="item_art">
                   <div class="item_top">
                     <div class="date_mo">
                       <h5>13</h5>
@@ -908,14 +1014,13 @@ require_once('head.php'); ?>
                     </div>
                     <div class="item_cai">
                       <span>Illustration</span>
-                      <div class="name_pub">By John Smith</div>
+                      <div class="name_pub">By Instructor</div>
                     </div>
                   </div>
-                  <img src="assets/img/11654.png" />
+                  <img src="img/21f746161494927.63c66dc11e919.png" />
                   <div class="ga_info">
                     <h4>
-                      Should Your Brand ride the Coronavirus Wave to drive
-                      gains?
+                      UI / Visual Design, Product Design, UX Design / Research?
                     </h4>
                     <div class="tags__bottom">
                       <span>#Google </span>
@@ -931,6 +1036,50 @@ require_once('head.php'); ?>
         <!-- End. Blog -->
 
 
+        <!-- Start Testimonial -->
+        <section class="testimonial_demo2 padding-t-12">
+          <div class="container">
+            <div class="row justify-content-between">
+              <div class="col-lg-5 mb-4 mb-lg-0">
+                <div class="item_mmon">
+                  <div class="profile_user">
+                    <img src="img/christian-chika.png" />
+                    <div class="categ">
+                      <span>Founder</span>
+                    </div>
+                  </div>
+                  <div class="info_persons">
+                    <p>
+                      "I am thrilled to have you here. Our mission is simple: to empower individuals like you to unlock their creative potential and thrive in the world of design. Through our master class, we provide a transformative learning experience, combining expert guidance, practical training, and invaluable mentorship."
+                    </p>
+                    <h5>Christian Chika</h5>
+                    <span>Software Engineer</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-5">
+                <div class="item_mmon">
+                  <div class="profile_user">
+                    <img src="img/Madu-ip.png" />
+                    <div class="categ">
+                      <span>Tutor</span>
+                    </div>
+                  </div>
+                  <div class="info_persons">
+                    <p>
+                      "With a shared passion for design, I am committed to providing you with an exceptional learning experience. As your tutor, I am dedicated to imparting my knowledge, experience, and insights to help you master the art of product design. Together, we will explore innovative techniques, tackle real-world challenges, and foster your growth as a designer."
+                    </p>
+                    <h5>Emmanuel Madu IP</h5>
+                    <span>Product Designer</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- End. Testimonial -->
+
+
         <!-- Start Services -->
         <section style="background-color: #c873730f;" class="services_section hosting_service padding-t-12" id="Services">
           <div class="container">
@@ -938,7 +1087,7 @@ require_once('head.php'); ?>
               <div class="col-md-8 col-lg-4">
                 <div class="title_sections mb-0">
                   <div class="img_title">
-                    <img src="https://orinostudio.com/rakon-theme/assets/img/hosting/54.svg" />
+                    <img src="img/54.svg" />
                   </div>
                   <h2>Unlock Your Creative Potential and Ignite Your Design Career</h2>
                   <p>
@@ -1017,15 +1166,14 @@ require_once('head.php'); ?>
             <div class="row justify-content-center text-center">
               <div class="col-md-8 col-lg-6">
                 <div class="title_sections">
-                  <h2>30 Day Money-Back Guarantee</h2>
+                  <h2>Introducing the Ultimate Product Design Master Class!</h2>
                   <p>
-                    If you are not happy with our services for whatever
-                    reason, we’ll refund your payment. No hassle, no risk.
+                    Our meticulously crafted curriculum covers all aspects of product design, from ideation and prototyping to user testing and final presentation.
                   </p>
                 </div>
-                <a href="#" class="btn btn_lg_primary rounded-8 c-white effect-letter bg-red">Get Started</a>
+                <a href="apply" class="btn btn_lg_primary rounded-8 c-white effect-letter bg-red">Get Started</a>
               </div>
-              <img class="img_hand" src="https://orinostudio.com/rakon-theme/assets/img/hosting/hands.svg" />
+              <img class="img_hand" src="img/hands.svg" />
             </div>
           </div>
         </section>
@@ -1034,7 +1182,7 @@ require_once('head.php'); ?>
 
 
         <!-- Start Some help -->
-        <section class="need_help_sec padding-t-12">
+        <section class="need_help_sec padding-t-12 margin-b-12" id="Contact">
           <div class="container">
             <div class="row">
               <div class="col-lg-6">
@@ -1046,7 +1194,7 @@ require_once('head.php'); ?>
                       start, hit up our experts anytime.
                     </p>
                     <div class="item_help">
-                      <span class="c-aquamarine">DreamHost Help Bot</span>
+                      <a href="https://api.whatsapp.com/send?phone=<?php print $site_whatsapp_num; ?>&text=Hello, I want to enquire about <?php print $siteName; ?>" target="_blank"><span class="c-aquamarine">Let's Chat</span></a>
                       <p>
                         24/7/365 through the chat widget.
                       </p>
@@ -1055,7 +1203,7 @@ require_once('head.php'); ?>
                 </div>
               </div>
               <div class="col-lg-6 mt-4 mt-lg-0">
-                <img class="img_help" src="https://orinostudio.com/rakon-theme/assets/img/hosting/78.svg" />
+                <img class="img_help" src="img/78.svg" />
               </div>
             </div>
           </div>

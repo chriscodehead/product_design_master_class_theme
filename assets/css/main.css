@@ -6028,7 +6028,8 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
 .banner_cotact_one {
   background-color: #240041;
   position: relative;
-  padding-bottom: 35rem;
+  /* padding-bottom: 35rem; */
+  padding-bottom: 10rem;
 }
 .banner_cotact_one .banner_title_inner p {
   color: rgba(255, 255, 255, 0.8);

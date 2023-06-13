@@ -162,4 +162,3 @@ public function round_out ($value, $places=0) {
 	
 }
 $bassic = new basicFunction();
-?>

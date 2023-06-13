@@ -7,6 +7,8 @@ RewriteEngine on
 
 RewriteRule ^we-welcome-you/?$ index.php [NC]
 RewriteRule ^faq/?$ faq.php [NC]
+RewriteRule ^apply/?$ apply.php [NC]
+RewriteRule ^payment-status/?$ payment-status.php [NC]
 RewriteRule ^markets/?$ markets.php [NC]
 RewriteRule ^crypto/?$ crypto.php [NC]
 RewriteRule ^forex/?$ forex.php [NC]

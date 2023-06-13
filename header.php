@@ -16,10 +16,22 @@
    <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav ml-auto nav-pills">
      <li class="nav-item">
-      <a class="nav-link" href="#Services">Services</a>
+      <a class="nav-link" href="./#About">About</a>
      </li>
      <li class="nav-item">
-      <a class="nav-link" href="#Pricing">Pricing</a>
+      <a class="nav-link" href="apply">Apply</a>
+     </li>
+     <li class="nav-item">
+      <a class="nav-link" href="./#Curriculum">Curriculum</a>
+     </li>
+     <li class="nav-item">
+      <a class="nav-link" href="./#Pricing">Pricing</a>
+     </li>
+     <li class="nav-item">
+      <a class="nav-link" href="./#Projects">Projects</a>
+     </li>
+     <li class="nav-item">
+      <a class="nav-link" href="./#Contact">Contact</a>
      </li>
     </ul>
    </div>

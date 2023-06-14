@@ -54,15 +54,12 @@ if (isset($_POST['sub'])) {
         $msg = $result;
         if ($result == 'Registration was successful. Proceed to login!') {
 
-          $publicKey = 'FLWPUBK-722960b5b3b567c58ee46d914fee3d96-X';
-          $secretKey = 'FLWSECK-93ae4545fceabb05868730d87f190428-188b4d19fddvt-X';
-
           // Prepare the payment request payload
           $payload = array(
             'tx_ref' => $user_code, // Generate a unique transaction reference
             'amount' => $initial_pay,
             'currency' => 'NGN', // Set your desired currency
-            'redirect_url' => $siteLink . 'apply',
+            'redirect_url' => $siteLink . 'payment-status.php',
             'payment_options' => $payment_method, // Set the payment options (e.g., card, bank transfer, etc.)
             'customer' => array(
               'email' => $email,
@@ -110,9 +107,6 @@ if (isset($_POST['sub'])) {
           // Redirect the user to the Flutterwave payment page
           header("Location: $paymentLink");
           exit();
-
-          $email_call->ActivateMail($email, $pass, $fullname);
-          $done = 1;
         } else {
           $msg = "Error! Registration failed try again.";
         }
@@ -146,7 +140,7 @@ require_once('head.php'); ?>
                     Product Design Application
                   </h1>
                   <p data-aos="fade-up" data-aos-delay="100">
-                    Secure your spot in this exclusive master class today and unlock a world of design possibilities. Don't miss out on this extraordinary opportunity to learn, grow, and connect with fellow designers. 🙂
+                    Secure your spot in this exclusive master class today and unlock a world of design possibilities. Don't miss out on this extraordinary opportunity to learn, grow, and connect with fellow designers. ðŸ™‚
                   </p>
                   <center>
                     <h1>
@@ -209,7 +203,7 @@ require_once('head.php'); ?>
                         <select required id="country" name="country" class="form-control custom-select" name="country">
                           <option>Please Select</option>
                           <option value="Afghanistan">Afghanistan</option>
-                          <option value="Åland Islands">Åland Islands</option>
+                          <option value="Ã…land Islands">Ã…land Islands</option>
                           <option value="Albania">Albania</option>
                           <option value="Algeria">Algeria</option>
                           <option value="American Samoa">American Samoa</option>
@@ -562,8 +556,8 @@ require_once('head.php'); ?>
 
                 <div class="col-12 terms">
                   <p class="text-white">
-                    By clicking on the Apply Now! button, you agree to Rakon.
-                    <a href="#">terms and conditions of use.</a>
+                    By clicking on the Apply Now! button, you agree to <?php print $siteName; ?>.
+                    <a href="#">terms and conditions of use.</a> <span class="text-success">Fee: ₦<?php print number_format($initial_pay); ?></span>
                   </p>
                 </div>
 
@@ -580,14 +574,14 @@ require_once('head.php'); ?>
             </div>
           </div>
 
-          <div class="po__person_support">
+          <!-- <div class="po__person_support">
             <img class="floating-2" src="assets/img/persons/02.png" alt="">
             <img class="floating-3" src="assets/img/persons/15.png" alt="">
             <img class="floating-4" src="assets/img/persons/04.png" alt="">
             <img class="floating-3" src="assets/img/persons/16.png" alt="">
             <img class="floating" src="assets/img/persons/03.png" alt="">
             <img class="floating-2" src="assets/img/persons/05.png" alt="">
-          </div>
+          </div> -->
     </div>
 
     </section>

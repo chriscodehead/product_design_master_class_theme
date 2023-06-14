@@ -26,26 +26,26 @@
   <meta property="og:title" content="<?php print @$title; ?>" />
   <meta property="og:type" content="article" />
   <meta property="og:description" content="<?php print @$description; ?>" />
-  <meta property="og:url" content="https://centadesk.com/">
-  <meta property="og:image" content="img/logo.png">
-  <meta property="og:image:secure_url" content="img/logo.png" />
+  <meta property="og:url" content="<?php print $siteLink; ?>">
+  <meta property="og:image" content="<?php print $siteLink; ?>img/favicon.png">
+  <meta property="og:image:secure_url" content="<?php print $siteLink; ?>img/favicon.png" />
   <meta property="og:image:width" content="600" />
   <meta property="og:image:height" content="415" />
 
   <meta name="twitter:card" content="<?php print @$siteName; ?>" />
   <meta name="twitter:title" content="<?php print @$title; ?>" />
-  <meta name="twitter:url" content="http://centadesk.com/">
+  <meta name="twitter:url" content="<?php print $siteLink; ?>">
   <meta name="twitter:description" content="<?php print @$description; ?>" />
-  <meta name="twitter:image" content="img/logo.png" />
-  <meta name="twitter:domain" content="https://centadesk.com/">
+  <meta name="twitter:image" content="<?php print $siteLink; ?>img/favicon.png" />
+  <meta name="twitter:domain" content="<?php print $siteLink; ?>">
   <meta name="twitter:creator" content="<?php print @$siteName; ?>">
 
   <meta itemprop="name" content="<?php print @$siteName; ?>">
   <meta itemprop="description" content="<?php print @$description; ?>">
-  <meta itemprop="image" content="img/logo.png">
+  <meta itemprop="image" content="<?php print $siteLink; ?>img/favicon.png">
 
   <title><?php print @$title; ?></title>
-  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+  <link rel="shortcut icon" href="<?php print $siteLink; ?>img/favicon.png" type="image/x-icon" />
   <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css" />
   <link rel="stylesheet" href="assets/css/animate.css" type="text/css" />
   <link rel="stylesheet" href="assets/css/swiper.min.css" />

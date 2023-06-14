@@ -6,6 +6,13 @@ session_start();
 $settings = 'settings';
 $payment_details = 'payment_details';
 
+//LIVE
+//$publicKey = 'FLWPUBK-722960b5b3b567c58ee46d914fee3d96-X';
+//$secretKey = 'FLWSECK-93ae4545fceabb05868730d87f190428-188b4d19fddvt-X';
+//TEXT
+$publicKey = 'FLWPUBK_TEST-bc38e3a40cccdbc40f7d3ecda8939c2f-X';
+$secretKey = 'FLWSECK_TEST-44b85cbfba04dca14fccf0405bb82e86-X';
+
 $sql_u = query_sql("SELECT * FROM $payment_details WHERE id=1 LIMIT 1");
 $row_u = mysqli_fetch_assoc($sql_u);
 
@@ -95,7 +102,7 @@ $durationE = 'After 24 Hours';
 $siteYear = date('Y');
 $dummyEmail = 'peterchrisbox@gmail.com';
 $companyNumber = '12850124';
-$domain = 'artitudeinteriors.com';
+$domain = 'creativehubacademy.centadesk.com';
 $siteLink = 'https://' . $domain . '/';
 $siteRegister = 'https://' . $domain . '/accounts/register';
 $siteLogin = 'https://' . $domain . '/accounts/login';
@@ -432,7 +439,7 @@ class Cal extends DBConnection
         if ($stmt->execute()) {
             $row = $stmt->fetch(PDO::FETCH_ASSOC);
             if ($row['blocked_account'] == 1) {
-                return 'Your Account is locked please <a style="color:#FFF;" href="mailto:support@signalearners.com"><u>contact support: support@signalearners.com</u></a>';
+                return 'Your Account is locked please <a style="color:#FFF;" href="mailto:support@creativehubacademy.centadesk.com"><u>contact support: support@creativehubacademy.centadesk.com</u></a>';
             } else { //Blocked account error massage
 
                 if ($row['email'] == $email && $row['password'] == $password) {
@@ -488,12 +495,12 @@ class Cal extends DBConnection
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 </head>
 <body>
-<h6><img src="https://www.signalearners.com/img/logo.png" /></h6>
+<h6><img src="https://www.creativehubacademy.centadesk.com/img/logo.png" /></h6>
 <div style="font-size: 14px;">
 <p>
 Hello, ' . $name . '
 </p><p>
-This email contains your 2 Factor Authentication code to complete your login at signalearners.com.
+This email contains your 2 Factor Authentication code to complete your login at creativehubacademy.centadesk.com.
 </p>
 Email: ' . $email . '<br />
 Code: <strong>' . $code . '</strong><br />
@@ -516,14 +523,14 @@ AibtcELUrGfO+hxdgxkuvevK/VvcxzolPJirJzrWKMFhzG3sg15wjTu5pm/pvcxzolPJirY=
 </p>
 <p>Best Regard<br />
 Envato Limited Support Team<br />
-Email: support@signalearners.com<br />
+Email: support@creativehubacademy.centadesk.com<br />
 </p>
  </div>
 </body>
 </html>';
         $header = "MIME-Version: 1.0" . "\r\n";
         $header .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-        $header .= 'From: Envato Limited <support@signalearners.com>' . "\r\n";
+        $header .= 'From: Envato Limited <support@creativehubacademy.centadesk.com>' . "\r\n";
         $retval = @mail($to, $subject, $message, $header);
         if ($retval = true) {
             return  'Mail sent successfully. Check ' . $email . ' email account for `Email Activation Link`!';

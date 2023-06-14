@@ -1,8 +1,8 @@
 <?php
 class email
 {
-    protected $siteName = 'Signal Earners';
-    protected $siteDomain = 'signalearners.com';
+    protected $siteName = 'Creative Hub Academy';
+    protected $siteDomain = 'creativehubacademy.centadesk.com';
 
     public function generalBody($message)
     {
@@ -19,7 +19,7 @@ class email
                             <tr>
                                 <td style="text-align: center; padding-bottom:25px">
                                     <a href="https://' . $this->siteDomain . '/"><img style="height: 40px" src="https://' . $this->siteDomain . '/img/logo.png" alt="logo"></a>
-                                    <p style="font-size: 14px; color: #6576ff; padding-top: 12px;">Refer, Share and Earn</p>
+                                    <p style="font-size: 14px; color: #6576ff; padding-top: 12px;">Unlock Your Creative Potential and Ignite Your Design Career</p>
                                 </td>
                             </tr>
                         </tbody>
@@ -653,21 +653,22 @@ class email
         $to  = $email;
         $d = date('F j, Y');
         $subject = $this->siteName . " Successful Registration";
-        $message = '<p>Congratulations ' . $fullname . '!</p>
+        $message = '<h3>Congratulations ' . $fullname . '!</h3><br />
 
-        <p>We are thrilled to inform you that your registration for our Product Design Master Class has been successfully completed. You are now officially part of a vibrant community of passionate designers who are committed to pushing the boundaries of creativity and innovation.</p>
+        <p>We are thrilled to inform you that your registration for our Product Design Master Class has been successfully completed. You are now officially part of a vibrant community of passionate designers who are committed to pushing the boundaries of creativity and innovation.</p><br />
 
-        <p>By joining this master class, you have taken a significant step towards honing your product design skills, gaining valuable insights, and expanding your professional network. We are confident that this journey will be transformative, empowering you to unleash your full potential in the world of design.</p>
+        <p>By joining this master class, you have taken a significant step towards honing your product design skills, gaining valuable insights, and expanding your professional network. We are confident that this journey will be transformative, empowering you to unleash your full potential in the world of design.</p><br />
 
-        <p>Throughout the course, you will have access to industry experts, practical sessions, mentorship, and a supportive community of fellow learners. We encourage you to actively engage, share your ideas, and embrace the challenges that lie ahead. Together, we will explore new horizons, create impactful designs, and shape the future of product design.</p>
+        <p>Throughout the course, you will have access to industry experts, practical sessions, mentorship, and a supportive community of fellow learners. We encourage you to actively engage, share your ideas, and embrace the challenges that lie ahead. Together, we will explore new horizons, create impactful designs, and shape the future of product design.</p><br />
 
-        <p>Once again, congratulations on securing your spot in our Product Design Master Class. We look forward to embarking on this incredible learning journey with you!</p>
+        <p>Once again, congratulations on securing your spot in our Product Design Master Class. We look forward to embarking on this incredible learning journey with you!</p><br />
 
-        <p>If you have any questions or need further assistance, please do not hesitate to reach out to our support team. Welcome aboard!</p>
-
+        <p>If you have any questions or need further assistance, please do not hesitate to reach out to our support team. Welcome aboard!</p><br /><br /><br />
+        <center><a href="https://t.me/+dGfFrNVllHhhYTg8"><button class="btn btn-primary">Join Telegram!</button></a></center>
+<br /><br />
         <p>Best regards,
-        ' . $this->siteName . ' Team<br />
-        Powered by <a href="https://centadesk.com">CENTADESK GLOBAL SERVICES</a></p>';
+        ' . $this->siteName . ' Team<br /><br />
+        Powered by: <a href="https://centadesk.com">CENTADESK GLOBAL SERVICES</a></p>';
         $content = self::generalBody($message);
         $header = "MIME-Version: 1.0" . "\r\n";
         $header .= "Content-type:text/html;charset=UTF-8" . "\r\n";

@@ -6,6 +6,5 @@ require_once('lib/sqli-functions.php');
 require_once('select-library.php');
 require_once('emails_lib.php'); 
 require_once('country.php');
-//$cal->checkValueSET();
+$cal->checkValueSET();
 //$cal->checkLogedIN('../login');
-?>

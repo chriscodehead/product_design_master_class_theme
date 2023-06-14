@@ -41,9 +41,9 @@
           <div class="item_subscribe">
             <h4>Subscribe</h4>
             <p>
-              Subscribe To <?php print $siteName; ?>’s Top Courses And Unlock Your Creative Potential and Ignite Your Design Career.
+              Subscribe To <?php print $siteName; ?>â€™s Top Courses And Unlock Your Creative Potential and Ignite Your Design Career.
             </p>
-            <a href="#Apply" class="btn btn_md_primary bg-red effect-letter rounded-8 c-white mb-3 mb-sm-0 mr-2">
+            <a href="apply" class="btn btn_md_primary bg-red effect-letter rounded-8 c-white mb-3 mb-sm-0 mr-2">
               Get Started</a>
             <form style="display: none;" class="form-row">
               <div class="col-md-11 form-group subscribebtn">
@@ -73,7 +73,7 @@
 
       <div class="col-12 text-center padding-t-6">
         <div class="copyright">
-          <span>© <?php print $siteYear; ?>
+          <span>Â© <?php print $siteYear; ?>
             <a href="./" target="_blank"><?php print $siteName; ?>.</a> Powered by <a href="https://centadesk.com">Centadesk.</a>
             All Right Reseved.</span>
         </div>
@@ -109,7 +109,7 @@
       <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
         <i class="fa fa-close"></i>
       </button>
-      <h5>Hi there 👋</h5>
+      <h5>Hi there ðŸ‘‹</h5>
       <p>We are glad you joined us <a href="#Apply">Join us</a></p>
     </div>
   </div>
@@ -117,11 +117,11 @@
 <!-- End. Toasts -->
 
 <!-- Start Section Loader -->
-<section class="loading_overlay">
+<!-- <section class="loading_overlay">
   <div class="loader_logo">
     <img class="" width="300" src="img/logo.png" />
   </div>
-</section>
+</section> -->
 <!-- End. Loader -->
 
 <!-- Video Modal -->

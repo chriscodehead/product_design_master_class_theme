@@ -25,7 +25,7 @@ require_once('head.php'); ?>
                     <span class="c-aquamarine"> Product Design Master Class </span>
                   </div>
                   <h1 class="c-white">
-                    Master Digital Product Design: UX Research & UI Design <span class="text-success">Cohort 2.0</span>
+                    Master Digital Product Design: UX Research & UI Design <span class="text-success">Cohort 2.0</span> <span style="font-size: 35px;">(Live Sessions)</span>
                   </h1>
                   <p class="c-light">
                     A complete design education for product designers: Research the user experience, then design a great user interface
@@ -619,7 +619,7 @@ require_once('head.php'); ?>
               <div class="col-md-5 my-auto">
                 <div class="banner_title">
                   <h1 style="font-size: 40px;">Get ready to revolutionize the world of product design.</h1>
-                  <p>About Us
+                  <p>
 
                     At <?php print $siteName; ?>, we are passionate about design and committed to empowering individuals to unleash their creative potential. As a leading provider of design education, we offer transformative master classes that equip students with the skills, knowledge, and confidence to excel in the field of product design.</p>
                   <p>
@@ -1040,7 +1040,8 @@ require_once('head.php'); ?>
         <section class="testimonial_demo2 padding-t-12">
           <div class="container">
             <div class="row justify-content-between">
-              <div class="col-lg-5 mb-4 mb-lg-0">
+
+              <div class="col-lg-5 mb-4 mb-lg-0" style="margin-top: 30px;">
                 <div class="item_mmon">
                   <div class="profile_user">
                     <img src="img/christian-chika.png" />
@@ -1052,25 +1053,45 @@ require_once('head.php'); ?>
                     <p>
                       "I am thrilled to have you here. Our mission is simple: to empower individuals like you to unlock their creative potential and thrive in the world of design. Through our master class, we provide a transformative learning experience, combining expert guidance, practical training, and invaluable mentorship."
                     </p>
-                    <h5>Christian Chika</h5>
+                    <h5><a href="https://www.linkedin.com/in/chriscodehead">Christian Chika</a></h5>
                     <span>Software Engineer</span>
                   </div>
                 </div>
               </div>
-              <div class="col-lg-5">
+
+              <div class="col-lg-5" style="margin-top: 30px;">
+                <div class="item_mmon">
+                  <div class="profile_user">
+                    <img src="img/Barbara-Ikeonyia.png" />
+                    <div class="categ">
+                      <span>Tutor/Mentor</span>
+                    </div>
+                  </div>
+                  <div class="info_persons">
+                    <p>
+                      "I firmly believe that education is a lifelong pursuit, and I am thrilled to accompany you on this exciting path of discovery. Together with our co-founder and the rest of our team, we are here to support you every step of the way. Our collective aim is to empower you with the skills, creativity, and confidence necessary to succeed in this dynamic industry."
+                    </p>
+                    <h5><a href="https://www.behance.net/barbaraij">Barbara Ikeonyia</a></h5>
+                    <span>Product Designer (UI & UX)</span>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="col-lg-5" style="margin-top: 30px;">
                 <div class="item_mmon">
                   <div class="profile_user">
                     <img src="img/Madu-ip.png" />
                     <div class="categ">
-                      <span>Tutor</span>
+                      <span>Tutor/Mentor</span>
                     </div>
                   </div>
                   <div class="info_persons">
                     <p>
                       "With a shared passion for design, I am committed to providing you with an exceptional learning experience. As your tutor, I am dedicated to imparting my knowledge, experience, and insights to help you master the art of product design. Together, we will explore innovative techniques, tackle real-world challenges, and foster your growth as a designer."
                     </p>
-                    <h5>Emmanuel Madu IP</h5>
-                    <span>Product Designer</span>
+                    <h5><a href="https://dribbble.com/maduip">Emmanuel Madu IP</a></h5>
+                    <span>Product Designer (UI & UX)</span>
                   </div>
                 </div>
               </div>
@@ -1081,7 +1102,7 @@ require_once('head.php'); ?>
 
 
         <!-- Start Services -->
-        <section style="background-color: #c873730f;" class="services_section hosting_service padding-t-12" id="Services">
+        <section style="background-color: #c873730f; margin-top: 40px;" class="services_section hosting_service padding-t-12" id="Services">
           <div class="container">
             <div class="row">
               <div class="col-md-8 col-lg-4">

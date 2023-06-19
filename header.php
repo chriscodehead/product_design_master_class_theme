@@ -12,27 +12,59 @@
      <path d="M45,33 L19,33 C-8,33 6,-2 22,14 L45,37"></path>
     </svg>
    </button>
-
+   <?php $pageURL = $_SERVER['REQUEST_URI'];
+   $pageName = basename($pageURL); ?>
    <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav ml-auto nav-pills">
-     <li class="nav-item">
-      <a class="nav-link" href="./#About">About</a>
-     </li>
-     <li class="nav-item">
-      <a class="nav-link" href="apply">Apply</a>
-     </li>
-     <li class="nav-item">
-      <a class="nav-link" href="./#Curriculum">Curriculum</a>
-     </li>
-     <li class="nav-item">
-      <a class="nav-link" href="./#Pricing">Pricing</a>
-     </li>
-     <li class="nav-item">
-      <a class="nav-link" href="./#Projects">Projects</a>
-     </li>
-     <li class="nav-item">
-      <a class="nav-link" href="./#Contact">Contact</a>
-     </li>
+
+     <?php if ($pageName == 'apply' || $pageName == 'payment-status') { ?>
+      <li class="nav-item">
+       <a class="nav-link" href="./">Home </a>
+      </li>
+     <?php } ?>
+
+     <?php if ($pageName == 'apply' || $pageName == 'payment-status') {
+     } else { ?>
+      <li class="nav-item">
+       <a class="nav-link" href="#About">About </a>
+      </li>
+     <?php } ?>
+
+     <?php if ($pageName == 'apply' || $pageName == 'payment-status') {
+     } else { ?>
+      <li class="nav-item">
+       <a class="nav-link" href="apply">Apply</a>
+      </li>
+     <?php } ?>
+
+     <?php if ($pageName == 'apply' || $pageName == 'payment-status') {
+     } else { ?>
+      <li class="nav-item">
+       <a class="nav-link" href="#Curriculum">Curriculum</a>
+      </li>
+     <?php } ?>
+
+     <?php if ($pageName == 'apply' || $pageName == 'payment-status') {
+     } else { ?>
+      <li class="nav-item">
+       <a class="nav-link" href="#Pricing">Pricing</a>
+      </li>
+     <?php } ?>
+
+     <?php if ($pageName == 'apply' || $pageName == 'payment-status') {
+     } else { ?>
+      <li class="nav-item">
+       <a class="nav-link" href="#Projects">Projects</a>
+      </li>
+     <?php } ?>
+
+     <?php if ($pageName == 'apply' || $pageName == 'payment-status') {
+     } else { ?>
+      <li class="nav-item">
+       <a class="nav-link" href="#Contact">Contact</a>
+      </li>
+     <?php } ?>
+
     </ul>
    </div>
   </nav>

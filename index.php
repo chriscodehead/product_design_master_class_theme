@@ -1095,6 +1095,26 @@ require_once('head.php'); ?>
                   </div>
                 </div>
               </div>
+
+              <div class="col-lg-5" style="margin-top: 30px;">
+                <div class="item_mmon">
+                  <div class="profile_user">
+                    <img src="img/Ani-Frankpeter.png" />
+                    <div class="categ">
+                      <span>Mentor</span>
+                    </div>
+                  </div>
+                  <div class="info_persons">
+                    <p>
+                      "As a mentor of our esteemed organization, I extend a warm welcome to each and every one of you. It is an honor to be a part of your design journey and assist you in reaching your fullest potential. Thank you for choosing our organization for your design education. I am genuinely excited about the journey we are about to embark on, and I look forward to witnessing your remarkable progress and achievements."
+                    </p>
+                    <h5><a href="https://www.dazeign.com/">Ani Frankpeter</a></h5>
+                    <span>Product Designer (UI & UX)</span>
+                  </div>
+                </div>
+              </div>
+
+
             </div>
           </div>
         </section>
